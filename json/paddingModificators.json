@@ -1,0 +1,520 @@
+{
+  "modificator": [
+    {
+      "modificatorName": "84"
+    },
+    {
+      "modificatorName": "84"
+    },
+    {
+      "modificatorName": "84"
+    },
+    {
+      "modificatorName": "84"
+    },
+    {
+      "modificatorName": "pt-0"
+    },
+    {
+      "modificatorName": "pr-0"
+    },
+    {
+      "modificatorName": "pb-0"
+    },
+    {
+      "modificatorName": "pl-0"
+    },
+    {
+      "modificatorName": "pt-5"
+    },
+    {
+      "modificatorName": "pr-5"
+    },
+    {
+      "modificatorName": "pb-5"
+    },
+    {
+      "modificatorName": "pl-5"
+    },
+    {
+      "modificatorName": "pt-10"
+    },
+    {
+      "modificatorName": "pr-10"
+    },
+    {
+      "modificatorName": "pb-10"
+    },
+    {
+      "modificatorName": "pl-10"
+    },
+    {
+      "modificatorName": "pt-15"
+    },
+    {
+      "modificatorName": "pr-15"
+    },
+    {
+      "modificatorName": "pb-15"
+    },
+    {
+      "modificatorName": "pl-15"
+    },
+    {
+      "modificatorName": "pt-20"
+    },
+    {
+      "modificatorName": "pr-20"
+    },
+    {
+      "modificatorName": "pb-20"
+    },
+    {
+      "modificatorName": "pl-20"
+    },
+    {
+      "modificatorName": "pt-25"
+    },
+    {
+      "modificatorName": "pr-25"
+    },
+    {
+      "modificatorName": "pb-25"
+    },
+    {
+      "modificatorName": "pl-25"
+    },
+    {
+      "modificatorName": "pt-30"
+    },
+    {
+      "modificatorName": "pr-30"
+    },
+    {
+      "modificatorName": "pb-30"
+    },
+    {
+      "modificatorName": "pl-30"
+    },
+    {
+      "modificatorName": "pt-35"
+    },
+    {
+      "modificatorName": "pr-35"
+    },
+    {
+      "modificatorName": "pb-35"
+    },
+    {
+      "modificatorName": "pl-35"
+    },
+    {
+      "modificatorName": "pt-40"
+    },
+    {
+      "modificatorName": "pr-40"
+    },
+    {
+      "modificatorName": "pb-40"
+    },
+    {
+      "modificatorName": "pl-40"
+    },
+    {
+      "modificatorName": "pt-45"
+    },
+    {
+      "modificatorName": "pr-45"
+    },
+    {
+      "modificatorName": "pb-45"
+    },
+    {
+      "modificatorName": "pl-45"
+    },
+    {
+      "modificatorName": "pt-50"
+    },
+    {
+      "modificatorName": "pr-50"
+    },
+    {
+      "modificatorName": "pb-50"
+    },
+    {
+      "modificatorName": "pl-50"
+    },
+    {
+      "modificatorName": "pt-55"
+    },
+    {
+      "modificatorName": "pr-55"
+    },
+    {
+      "modificatorName": "pb-55"
+    },
+    {
+      "modificatorName": "pl-55"
+    },
+    {
+      "modificatorName": "pt-60"
+    },
+    {
+      "modificatorName": "pr-60"
+    },
+    {
+      "modificatorName": "pb-60"
+    },
+    {
+      "modificatorName": "pl-60"
+    },
+    {
+      "modificatorName": "pt-65"
+    },
+    {
+      "modificatorName": "pr-65"
+    },
+    {
+      "modificatorName": "pb-65"
+    },
+    {
+      "modificatorName": "pl-65"
+    },
+    {
+      "modificatorName": "pt-70"
+    },
+    {
+      "modificatorName": "pr-70"
+    },
+    {
+      "modificatorName": "pb-70"
+    },
+    {
+      "modificatorName": "pl-70"
+    },
+    {
+      "modificatorName": "pt-75"
+    },
+    {
+      "modificatorName": "pr-75"
+    },
+    {
+      "modificatorName": "pb-75"
+    },
+    {
+      "modificatorName": "pl-75"
+    },
+    {
+      "modificatorName": "pt-80"
+    },
+    {
+      "modificatorName": "pr-80"
+    },
+    {
+      "modificatorName": "pb-80"
+    },
+    {
+      "modificatorName": "pl-80"
+    },
+    {
+      "modificatorName": "pt-85"
+    },
+    {
+      "modificatorName": "pr-85"
+    },
+    {
+      "modificatorName": "pb-85"
+    },
+    {
+      "modificatorName": "pl-85"
+    },
+    {
+      "modificatorName": "pt-90"
+    },
+    {
+      "modificatorName": "pr-90"
+    },
+    {
+      "modificatorName": "pb-90"
+    },
+    {
+      "modificatorName": "pl-90"
+    },
+    {
+      "modificatorName": "pt-95"
+    },
+    {
+      "modificatorName": "pr-95"
+    },
+    {
+      "modificatorName": "pb-95"
+    },
+    {
+      "modificatorName": "pl-95"
+    },
+    {
+      "modificatorName": "pt-100"
+    },
+    {
+      "modificatorName": "pr-100"
+    },
+    {
+      "modificatorName": "pb-100"
+    },
+    {
+      "modificatorName": "pl-100"
+    },
+    {
+      "modificatorName": "pt-0"
+    },
+    {
+      "modificatorName": "pr-0"
+    },
+    {
+      "modificatorName": "pb-0"
+    },
+    {
+      "modificatorName": "pl-0"
+    },
+    {
+      "modificatorName": "pt-5"
+    },
+    {
+      "modificatorName": "pr-5"
+    },
+    {
+      "modificatorName": "pb-5"
+    },
+    {
+      "modificatorName": "pl-5"
+    },
+    {
+      "modificatorName": "pt-10"
+    },
+    {
+      "modificatorName": "pr-10"
+    },
+    {
+      "modificatorName": "pb-10"
+    },
+    {
+      "modificatorName": "pl-10"
+    },
+    {
+      "modificatorName": "pt-15"
+    },
+    {
+      "modificatorName": "pr-15"
+    },
+    {
+      "modificatorName": "pb-15"
+    },
+    {
+      "modificatorName": "pl-15"
+    },
+    {
+      "modificatorName": "pt-20"
+    },
+    {
+      "modificatorName": "pr-20"
+    },
+    {
+      "modificatorName": "pb-20"
+    },
+    {
+      "modificatorName": "pl-20"
+    },
+    {
+      "modificatorName": "pt-25"
+    },
+    {
+      "modificatorName": "pr-25"
+    },
+    {
+      "modificatorName": "pb-25"
+    },
+    {
+      "modificatorName": "pl-25"
+    },
+    {
+      "modificatorName": "pt-30"
+    },
+    {
+      "modificatorName": "pr-30"
+    },
+    {
+      "modificatorName": "pb-30"
+    },
+    {
+      "modificatorName": "pl-30"
+    },
+    {
+      "modificatorName": "pt-35"
+    },
+    {
+      "modificatorName": "pr-35"
+    },
+    {
+      "modificatorName": "pb-35"
+    },
+    {
+      "modificatorName": "pl-35"
+    },
+    {
+      "modificatorName": "pt-40"
+    },
+    {
+      "modificatorName": "pr-40"
+    },
+    {
+      "modificatorName": "pb-40"
+    },
+    {
+      "modificatorName": "pl-40"
+    },
+    {
+      "modificatorName": "pt-45"
+    },
+    {
+      "modificatorName": "pr-45"
+    },
+    {
+      "modificatorName": "pb-45"
+    },
+    {
+      "modificatorName": "pl-45"
+    },
+    {
+      "modificatorName": "pt-50"
+    },
+    {
+      "modificatorName": "pr-50"
+    },
+    {
+      "modificatorName": "pb-50"
+    },
+    {
+      "modificatorName": "pl-50"
+    },
+    {
+      "modificatorName": "pt-55"
+    },
+    {
+      "modificatorName": "pr-55"
+    },
+    {
+      "modificatorName": "pb-55"
+    },
+    {
+      "modificatorName": "pl-55"
+    },
+    {
+      "modificatorName": "pt-60"
+    },
+    {
+      "modificatorName": "pr-60"
+    },
+    {
+      "modificatorName": "pb-60"
+    },
+    {
+      "modificatorName": "pl-60"
+    },
+    {
+      "modificatorName": "pt-65"
+    },
+    {
+      "modificatorName": "pr-65"
+    },
+    {
+      "modificatorName": "pb-65"
+    },
+    {
+      "modificatorName": "pl-65"
+    },
+    {
+      "modificatorName": "pt-70"
+    },
+    {
+      "modificatorName": "pr-70"
+    },
+    {
+      "modificatorName": "pb-70"
+    },
+    {
+      "modificatorName": "pl-70"
+    },
+    {
+      "modificatorName": "pt-75"
+    },
+    {
+      "modificatorName": "pr-75"
+    },
+    {
+      "modificatorName": "pb-75"
+    },
+    {
+      "modificatorName": "pl-75"
+    },
+    {
+      "modificatorName": "pt-80"
+    },
+    {
+      "modificatorName": "pr-80"
+    },
+    {
+      "modificatorName": "pb-80"
+    },
+    {
+      "modificatorName": "pl-80"
+    },
+    {
+      "modificatorName": "pt-85"
+    },
+    {
+      "modificatorName": "pr-85"
+    },
+    {
+      "modificatorName": "pb-85"
+    },
+    {
+      "modificatorName": "pl-85"
+    },
+    {
+      "modificatorName": "pt-90"
+    },
+    {
+      "modificatorName": "pr-90"
+    },
+    {
+      "modificatorName": "pb-90"
+    },
+    {
+      "modificatorName": "pl-90"
+    },
+    {
+      "modificatorName": "pt-95"
+    },
+    {
+      "modificatorName": "pr-95"
+    },
+    {
+      "modificatorName": "pb-95"
+    },
+    {
+      "modificatorName": "pl-95"
+    },
+    {
+      "modificatorName": "pt-100"
+    },
+    {
+      "modificatorName": "pr-100"
+    },
+    {
+      "modificatorName": "pb-100"
+    },
+    {
+      "modificatorName": "pl-100"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "storybooktypehtml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006 -c .storybook watch-css -s ./src",
+    "storybook-docs": "start-storybook --docs",
+    "build-storybook": "build-storybook",
+    "test": "jest storybook.test.js",
+    "icon-names-update": "node ./utils/get-font-icon-names.js",
+    "svg-icon-names-update": "node ./utils/getFolderContent.js",
+    "paddings-update": "node ./utils/getPaddingModificators.js  ",
+    "margins-update": "node ./utils/getMarginModificators.js",
+    "fs-update": "node ./utils/getFontSizeModificators.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@storybook/addon-actions": "^6.0.26",
+    "@storybook/addon-essentials": "^6.0.26",
+    "@storybook/addon-jest": "^6.0.26",
+    "@storybook/addon-links": "^6.0.26",
+    "@storybook/addon-storyshots": "^6.0.26",
+    "@storybook/addon-storyshots-puppeteer": "^6.0.26",
+    "@storybook/html": "^6.0.26",
+    "@whitespace/storybook-addon-html": "^2.0.1",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "html-to-react": "^1.4.5",
+    "jest": "^26.5.2",
+    "jest-transform-css": "^2.1.0",
+    "puppeteer": "^5.3.1",
+    "react-is": "^16.13.1",
+    "resolve-url-loader": "^3.1.1"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "@storybook/addon-a11y": "^6.0.26",
+    "@storybook/addon-knobs": "^6.0.26",
+    "@storybook/addon-notes": "^5.3.21",
+    "@storybook/addons": "^6.0.26",
+    "@storybook/theming": "^6.0.27",
+    "babel-jest": "^26.5.2",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1"
+  }
+}

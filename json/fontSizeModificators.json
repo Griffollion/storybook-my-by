@@ -1,0 +1,355 @@
+{
+  "modificator": [
+    {
+      "modificatorName": "fs-1"
+    },
+    {
+      "modificatorName": "fs-0"
+    },
+    {
+      "modificatorName": "fs-4"
+    },
+    {
+      "modificatorName": "fs-5"
+    },
+    {
+      "modificatorName": "fs-6"
+    },
+    {
+      "modificatorName": "fs-7"
+    },
+    {
+      "modificatorName": "fs-8"
+    },
+    {
+      "modificatorName": "fs-9"
+    },
+    {
+      "modificatorName": "fs-10"
+    },
+    {
+      "modificatorName": "fs-11"
+    },
+    {
+      "modificatorName": "fs-12"
+    },
+    {
+      "modificatorName": "fs-13"
+    },
+    {
+      "modificatorName": "fs-14"
+    },
+    {
+      "modificatorName": "fs-15"
+    },
+    {
+      "modificatorName": "fs-16"
+    },
+    {
+      "modificatorName": "fs-17"
+    },
+    {
+      "modificatorName": "fs-18"
+    },
+    {
+      "modificatorName": "fs-19"
+    },
+    {
+      "modificatorName": "fs-20"
+    },
+    {
+      "modificatorName": "fs-21"
+    },
+    {
+      "modificatorName": "fs-22"
+    },
+    {
+      "modificatorName": "fs-23"
+    },
+    {
+      "modificatorName": "fs-24"
+    },
+    {
+      "modificatorName": "fs-25"
+    },
+    {
+      "modificatorName": "fs-26"
+    },
+    {
+      "modificatorName": "fs-27"
+    },
+    {
+      "modificatorName": "fs-28"
+    },
+    {
+      "modificatorName": "fs-29"
+    },
+    {
+      "modificatorName": "fs-30"
+    },
+    {
+      "modificatorName": "fs-31"
+    },
+    {
+      "modificatorName": "fs-32"
+    },
+    {
+      "modificatorName": "fs-33"
+    },
+    {
+      "modificatorName": "fs-34"
+    },
+    {
+      "modificatorName": "fs-35"
+    },
+    {
+      "modificatorName": "fs-36"
+    },
+    {
+      "modificatorName": "fs-37"
+    },
+    {
+      "modificatorName": "fs-38"
+    },
+    {
+      "modificatorName": "fs-39"
+    },
+    {
+      "modificatorName": "fs-40"
+    },
+    {
+      "modificatorName": "fs-41"
+    },
+    {
+      "modificatorName": "fs-42"
+    },
+    {
+      "modificatorName": "fs-43"
+    },
+    {
+      "modificatorName": "fs-44"
+    },
+    {
+      "modificatorName": "fs-45"
+    },
+    {
+      "modificatorName": "fs-46"
+    },
+    {
+      "modificatorName": "fs-47"
+    },
+    {
+      "modificatorName": "fs-48"
+    },
+    {
+      "modificatorName": "fs-49"
+    },
+    {
+      "modificatorName": "fs-50"
+    },
+    {
+      "modificatorName": "fs-51"
+    },
+    {
+      "modificatorName": "fs-52"
+    },
+    {
+      "modificatorName": "fs-53"
+    },
+    {
+      "modificatorName": "fs-54"
+    },
+    {
+      "modificatorName": "fs-55"
+    },
+    {
+      "modificatorName": "fs-56"
+    },
+    {
+      "modificatorName": "fs-57"
+    },
+    {
+      "modificatorName": "fs-58"
+    },
+    {
+      "modificatorName": "fs-59"
+    },
+    {
+      "modificatorName": "fs-60"
+    },
+    {
+      "modificatorName": "fs-0"
+    },
+    {
+      "modificatorName": "fs-4"
+    },
+    {
+      "modificatorName": "fs-5"
+    },
+    {
+      "modificatorName": "fs-6"
+    },
+    {
+      "modificatorName": "fs-7"
+    },
+    {
+      "modificatorName": "fs-8"
+    },
+    {
+      "modificatorName": "fs-9"
+    },
+    {
+      "modificatorName": "fs-10"
+    },
+    {
+      "modificatorName": "fs-11"
+    },
+    {
+      "modificatorName": "fs-12"
+    },
+    {
+      "modificatorName": "fs-13"
+    },
+    {
+      "modificatorName": "fs-14"
+    },
+    {
+      "modificatorName": "fs-15"
+    },
+    {
+      "modificatorName": "fs-16"
+    },
+    {
+      "modificatorName": "fs-17"
+    },
+    {
+      "modificatorName": "fs-18"
+    },
+    {
+      "modificatorName": "fs-19"
+    },
+    {
+      "modificatorName": "fs-20"
+    },
+    {
+      "modificatorName": "fs-21"
+    },
+    {
+      "modificatorName": "fs-22"
+    },
+    {
+      "modificatorName": "fs-23"
+    },
+    {
+      "modificatorName": "fs-24"
+    },
+    {
+      "modificatorName": "fs-25"
+    },
+    {
+      "modificatorName": "fs-26"
+    },
+    {
+      "modificatorName": "fs-27"
+    },
+    {
+      "modificatorName": "fs-28"
+    },
+    {
+      "modificatorName": "fs-29"
+    },
+    {
+      "modificatorName": "fs-30"
+    },
+    {
+      "modificatorName": "fs-31"
+    },
+    {
+      "modificatorName": "fs-32"
+    },
+    {
+      "modificatorName": "fs-33"
+    },
+    {
+      "modificatorName": "fs-34"
+    },
+    {
+      "modificatorName": "fs-35"
+    },
+    {
+      "modificatorName": "fs-36"
+    },
+    {
+      "modificatorName": "fs-37"
+    },
+    {
+      "modificatorName": "fs-38"
+    },
+    {
+      "modificatorName": "fs-39"
+    },
+    {
+      "modificatorName": "fs-40"
+    },
+    {
+      "modificatorName": "fs-41"
+    },
+    {
+      "modificatorName": "fs-42"
+    },
+    {
+      "modificatorName": "fs-43"
+    },
+    {
+      "modificatorName": "fs-44"
+    },
+    {
+      "modificatorName": "fs-45"
+    },
+    {
+      "modificatorName": "fs-46"
+    },
+    {
+      "modificatorName": "fs-47"
+    },
+    {
+      "modificatorName": "fs-48"
+    },
+    {
+      "modificatorName": "fs-49"
+    },
+    {
+      "modificatorName": "fs-50"
+    },
+    {
+      "modificatorName": "fs-51"
+    },
+    {
+      "modificatorName": "fs-52"
+    },
+    {
+      "modificatorName": "fs-53"
+    },
+    {
+      "modificatorName": "fs-54"
+    },
+    {
+      "modificatorName": "fs-55"
+    },
+    {
+      "modificatorName": "fs-56"
+    },
+    {
+      "modificatorName": "fs-57"
+    },
+    {
+      "modificatorName": "fs-58"
+    },
+    {
+      "modificatorName": "fs-59"
+    },
+    {
+      "modificatorName": "fs-60"
+    }
+  ]
+}

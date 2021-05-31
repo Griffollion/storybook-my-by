@@ -1,0 +1,151 @@
+{
+    "articles": [
+        {
+            "title": "Сборник всех технологий использующихся в Web (EN)",
+            "link": "https://andreasbm.github.io/web-skills/",
+            "description": "",
+            "category": "other",
+            "intrest": "hight"
+        },
+        {
+            "title": "На какие этапы рендеринга страницы влияют CSS свойства в различных браузерах",
+            "link": "https://csstriggers.com/",
+            "description": "",
+            "category": "optimization",
+            "intrest": "medium"
+        },
+        {
+            "title": "О наболевшем",
+            "link": "https://habr.com/ru/company/avito/blog/525384/",
+            "description": "",
+            "category": "other",
+            "intrest": "low"
+        },
+        {
+            "title": "БЭМ для начинающих. Очевидные и неочевидные вопросы верстки",
+            "link": "https://medium.com/@innabelaya/%D0%B1%D1%8D%D0%BC-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B8%D1%85-%D0%BE%D1%87%D0%B5%D0%B2%D0%B8%D0%B4%D0%BD%D1%8B%D0%B5-%D0%B8-%D0%BD%D0%B5%D0%BE%D1%87%D0%B5%D0%B2%D0%B8%D0%B4%D0%BD%D1%8B%D0%B5-%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B-%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B8-1a21d67cf840",
+            "description": "",
+            "category": "verstka",
+            "intrest": "medium"
+        },
+        {
+            "title": "Методология БЭМ. Документация Яндекса",
+            "link": "https://ru.bem.info/methodology/css/",
+            "description": "",
+            "category": "verstka",
+            "intrest": "low"
+        },
+        {
+            "title": "Организация отступов в верстке",
+            "link": "https://m.habr.com/ru/post/340420/",
+            "description": "",
+            "category": "verstka",
+            "intrest": "medium"
+        },
+        {
+            "title": "Странности CSS, о которых полезно знать",
+            "link": "https://m.habr.com/ru/company/ruvds/blog/350658/",
+            "description": "",
+            "category": "verstka",
+            "intrest": "hight"
+        },
+        {
+            "title": "Статьи по оптимизациям от гугла",
+            "link": "https://web.dev/fast/",
+            "description": "",
+            "category": "optimization",
+            "intrest": "low"
+        },
+        {
+            "title": "Статья по гридам",
+            "link": "https://html5book.ru/css-grid/",
+            "description": "",
+            "category": "verstka",
+            "intrest": "low"
+        },
+        {
+            "title": "Как работают Nth-child и nth-of-type",
+            "link": "http://css.yoksel.ru/nth-child/",
+            "description": "",
+            "category": "verstka",
+            "intrest": "medium"
+        },
+        {
+            "title": "Шпаргалка по современному JavaScript",
+            "link": "https://tproger.ru/translations/javascript-cheatsheet",
+            "description": "",
+            "category": "js",
+            "intrest": "medium"
+        },
+        {
+            "title": "Описние методов массивов ES6",
+            "link": "https://habr.com/ru/company/plarium/blog/483958/",
+            "description": "",
+            "category": "js",
+            "intrest": "low"
+        },
+        {
+            "title": "Примеры использования Intersection Observer API",
+            "link": "https://habr.com/ru/post/494670/",
+            "description": "",
+            "category": "js",
+            "intrest": "medium"
+        },
+        {
+            "title": "Подробная статья про Asycn/Await JavaScript",
+            "link": "https://medium.com/@stasonmars/%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D0%BD%D0%B8%D0%BC%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B8-%D0%B0%D1%81%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-javascript-%D1%81-async-await-ba5f47f4436",
+            "description": "",
+            "category": "js",
+            "intrest": "medium"
+        },
+        {
+            "title": "Как происходит синтаксический анализ JavaScript в V8",
+            "link": "https://medium.com/devschacht/lazy-javascript-parsing-in-v8-99b5c3a6cbba",
+            "description": "",
+            "category": "optimization",
+            "intrest": "hight"
+        },
+        {
+            "title": "Презентация по профилированию JS",
+            "link": "https://victor-homyakov.github.io/profile-visualization/",
+            "description": "",
+            "category": "optimization",
+            "intrest": "medium"
+        },
+        {
+            "title": "Подробнейшее видео по работе с Webpack",
+            "link": "https://www.youtube.com/watch?v=eSaF8NXeNsA",
+            "description": "",
+            "category": "js",
+            "intrest": "hight"
+        },
+        {
+            "title": "24 современных сниппетов ES6 для решения практических задач JavaScript",
+            "link": "https://medium.com/swlh/24-modern-es6-code-snippets-to-solve-practical-js-problems-3609f301859e",
+            "description": "",
+            "category": "js",
+            "intrest": "medium"
+        },
+        {
+            "title": "Описание JS операторов (EN)",
+            "link": "https://joshwcomeau.com/operator-lookup/",
+            "description": "",
+            "category": "js",
+            "intrest": "medium"
+        },
+        {
+            "title": "Задавать Height и Width для изображений снова важно",
+            "link": "https://habr.com/ru/post/524918/",
+            "description": "",
+            "category": "verstka",
+            "intrest": "medium"
+        },
+        {
+            "title": "20 репозиториев GitHub, о которых должен знать каждый",
+            "link": "https://proglib.io/p/obuchenie-veb-razrabotke-20-repozitoriev-github-o-kotoryh-dolzhen-znat-kazhdyy-2020-12-22",
+            "description": "",
+            "category": "other",
+            "intrest": "hight"
+        }
+    ]
+}

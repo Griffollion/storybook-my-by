@@ -1,0 +1,520 @@
+{
+  "modificator": [
+    {
+      "modificatorName": "84"
+    },
+    {
+      "modificatorName": "84"
+    },
+    {
+      "modificatorName": "84"
+    },
+    {
+      "modificatorName": "84"
+    },
+    {
+      "modificatorName": "mt-0"
+    },
+    {
+      "modificatorName": "mr-0"
+    },
+    {
+      "modificatorName": "mb-0"
+    },
+    {
+      "modificatorName": "ml-0"
+    },
+    {
+      "modificatorName": "mt-5"
+    },
+    {
+      "modificatorName": "mr-5"
+    },
+    {
+      "modificatorName": "mb-5"
+    },
+    {
+      "modificatorName": "ml-5"
+    },
+    {
+      "modificatorName": "mt-10"
+    },
+    {
+      "modificatorName": "mr-10"
+    },
+    {
+      "modificatorName": "mb-10"
+    },
+    {
+      "modificatorName": "ml-10"
+    },
+    {
+      "modificatorName": "mt-15"
+    },
+    {
+      "modificatorName": "mr-15"
+    },
+    {
+      "modificatorName": "mb-15"
+    },
+    {
+      "modificatorName": "ml-15"
+    },
+    {
+      "modificatorName": "mt-20"
+    },
+    {
+      "modificatorName": "mr-20"
+    },
+    {
+      "modificatorName": "mb-20"
+    },
+    {
+      "modificatorName": "ml-20"
+    },
+    {
+      "modificatorName": "mt-25"
+    },
+    {
+      "modificatorName": "mr-25"
+    },
+    {
+      "modificatorName": "mb-25"
+    },
+    {
+      "modificatorName": "ml-25"
+    },
+    {
+      "modificatorName": "mt-30"
+    },
+    {
+      "modificatorName": "mr-30"
+    },
+    {
+      "modificatorName": "mb-30"
+    },
+    {
+      "modificatorName": "ml-30"
+    },
+    {
+      "modificatorName": "mt-35"
+    },
+    {
+      "modificatorName": "mr-35"
+    },
+    {
+      "modificatorName": "mb-35"
+    },
+    {
+      "modificatorName": "ml-35"
+    },
+    {
+      "modificatorName": "mt-40"
+    },
+    {
+      "modificatorName": "mr-40"
+    },
+    {
+      "modificatorName": "mb-40"
+    },
+    {
+      "modificatorName": "ml-40"
+    },
+    {
+      "modificatorName": "mt-45"
+    },
+    {
+      "modificatorName": "mr-45"
+    },
+    {
+      "modificatorName": "mb-45"
+    },
+    {
+      "modificatorName": "ml-45"
+    },
+    {
+      "modificatorName": "mt-50"
+    },
+    {
+      "modificatorName": "mr-50"
+    },
+    {
+      "modificatorName": "mb-50"
+    },
+    {
+      "modificatorName": "ml-50"
+    },
+    {
+      "modificatorName": "mt-55"
+    },
+    {
+      "modificatorName": "mr-55"
+    },
+    {
+      "modificatorName": "mb-55"
+    },
+    {
+      "modificatorName": "ml-55"
+    },
+    {
+      "modificatorName": "mt-60"
+    },
+    {
+      "modificatorName": "mr-60"
+    },
+    {
+      "modificatorName": "mb-60"
+    },
+    {
+      "modificatorName": "ml-60"
+    },
+    {
+      "modificatorName": "mt-65"
+    },
+    {
+      "modificatorName": "mr-65"
+    },
+    {
+      "modificatorName": "mb-65"
+    },
+    {
+      "modificatorName": "ml-65"
+    },
+    {
+      "modificatorName": "mt-70"
+    },
+    {
+      "modificatorName": "mr-70"
+    },
+    {
+      "modificatorName": "mb-70"
+    },
+    {
+      "modificatorName": "ml-70"
+    },
+    {
+      "modificatorName": "mt-75"
+    },
+    {
+      "modificatorName": "mr-75"
+    },
+    {
+      "modificatorName": "mb-75"
+    },
+    {
+      "modificatorName": "ml-75"
+    },
+    {
+      "modificatorName": "mt-80"
+    },
+    {
+      "modificatorName": "mr-80"
+    },
+    {
+      "modificatorName": "mb-80"
+    },
+    {
+      "modificatorName": "ml-80"
+    },
+    {
+      "modificatorName": "mt-85"
+    },
+    {
+      "modificatorName": "mr-85"
+    },
+    {
+      "modificatorName": "mb-85"
+    },
+    {
+      "modificatorName": "ml-85"
+    },
+    {
+      "modificatorName": "mt-90"
+    },
+    {
+      "modificatorName": "mr-90"
+    },
+    {
+      "modificatorName": "mb-90"
+    },
+    {
+      "modificatorName": "ml-90"
+    },
+    {
+      "modificatorName": "mt-95"
+    },
+    {
+      "modificatorName": "mr-95"
+    },
+    {
+      "modificatorName": "mb-95"
+    },
+    {
+      "modificatorName": "ml-95"
+    },
+    {
+      "modificatorName": "mt-100"
+    },
+    {
+      "modificatorName": "mr-100"
+    },
+    {
+      "modificatorName": "mb-100"
+    },
+    {
+      "modificatorName": "ml-100"
+    },
+    {
+      "modificatorName": "mt-0"
+    },
+    {
+      "modificatorName": "mr-0"
+    },
+    {
+      "modificatorName": "mb-0"
+    },
+    {
+      "modificatorName": "ml-0"
+    },
+    {
+      "modificatorName": "mt-5"
+    },
+    {
+      "modificatorName": "mr-5"
+    },
+    {
+      "modificatorName": "mb-5"
+    },
+    {
+      "modificatorName": "ml-5"
+    },
+    {
+      "modificatorName": "mt-10"
+    },
+    {
+      "modificatorName": "mr-10"
+    },
+    {
+      "modificatorName": "mb-10"
+    },
+    {
+      "modificatorName": "ml-10"
+    },
+    {
+      "modificatorName": "mt-15"
+    },
+    {
+      "modificatorName": "mr-15"
+    },
+    {
+      "modificatorName": "mb-15"
+    },
+    {
+      "modificatorName": "ml-15"
+    },
+    {
+      "modificatorName": "mt-20"
+    },
+    {
+      "modificatorName": "mr-20"
+    },
+    {
+      "modificatorName": "mb-20"
+    },
+    {
+      "modificatorName": "ml-20"
+    },
+    {
+      "modificatorName": "mt-25"
+    },
+    {
+      "modificatorName": "mr-25"
+    },
+    {
+      "modificatorName": "mb-25"
+    },
+    {
+      "modificatorName": "ml-25"
+    },
+    {
+      "modificatorName": "mt-30"
+    },
+    {
+      "modificatorName": "mr-30"
+    },
+    {
+      "modificatorName": "mb-30"
+    },
+    {
+      "modificatorName": "ml-30"
+    },
+    {
+      "modificatorName": "mt-35"
+    },
+    {
+      "modificatorName": "mr-35"
+    },
+    {
+      "modificatorName": "mb-35"
+    },
+    {
+      "modificatorName": "ml-35"
+    },
+    {
+      "modificatorName": "mt-40"
+    },
+    {
+      "modificatorName": "mr-40"
+    },
+    {
+      "modificatorName": "mb-40"
+    },
+    {
+      "modificatorName": "ml-40"
+    },
+    {
+      "modificatorName": "mt-45"
+    },
+    {
+      "modificatorName": "mr-45"
+    },
+    {
+      "modificatorName": "mb-45"
+    },
+    {
+      "modificatorName": "ml-45"
+    },
+    {
+      "modificatorName": "mt-50"
+    },
+    {
+      "modificatorName": "mr-50"
+    },
+    {
+      "modificatorName": "mb-50"
+    },
+    {
+      "modificatorName": "ml-50"
+    },
+    {
+      "modificatorName": "mt-55"
+    },
+    {
+      "modificatorName": "mr-55"
+    },
+    {
+      "modificatorName": "mb-55"
+    },
+    {
+      "modificatorName": "ml-55"
+    },
+    {
+      "modificatorName": "mt-60"
+    },
+    {
+      "modificatorName": "mr-60"
+    },
+    {
+      "modificatorName": "mb-60"
+    },
+    {
+      "modificatorName": "ml-60"
+    },
+    {
+      "modificatorName": "mt-65"
+    },
+    {
+      "modificatorName": "mr-65"
+    },
+    {
+      "modificatorName": "mb-65"
+    },
+    {
+      "modificatorName": "ml-65"
+    },
+    {
+      "modificatorName": "mt-70"
+    },
+    {
+      "modificatorName": "mr-70"
+    },
+    {
+      "modificatorName": "mb-70"
+    },
+    {
+      "modificatorName": "ml-70"
+    },
+    {
+      "modificatorName": "mt-75"
+    },
+    {
+      "modificatorName": "mr-75"
+    },
+    {
+      "modificatorName": "mb-75"
+    },
+    {
+      "modificatorName": "ml-75"
+    },
+    {
+      "modificatorName": "mt-80"
+    },
+    {
+      "modificatorName": "mr-80"
+    },
+    {
+      "modificatorName": "mb-80"
+    },
+    {
+      "modificatorName": "ml-80"
+    },
+    {
+      "modificatorName": "mt-85"
+    },
+    {
+      "modificatorName": "mr-85"
+    },
+    {
+      "modificatorName": "mb-85"
+    },
+    {
+      "modificatorName": "ml-85"
+    },
+    {
+      "modificatorName": "mt-90"
+    },
+    {
+      "modificatorName": "mr-90"
+    },
+    {
+      "modificatorName": "mb-90"
+    },
+    {
+      "modificatorName": "ml-90"
+    },
+    {
+      "modificatorName": "mt-95"
+    },
+    {
+      "modificatorName": "mr-95"
+    },
+    {
+      "modificatorName": "mb-95"
+    },
+    {
+      "modificatorName": "ml-95"
+    },
+    {
+      "modificatorName": "mt-100"
+    },
+    {
+      "modificatorName": "mr-100"
+    },
+    {
+      "modificatorName": "mb-100"
+    },
+    {
+      "modificatorName": "ml-100"
+    }
+  ]
+}
