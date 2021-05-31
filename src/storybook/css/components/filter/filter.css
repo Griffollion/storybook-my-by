@@ -1,0 +1,32 @@
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter__item {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 14px;
+    font-size: 14px;
+    color: #333e50;
+    background: #fff;
+    border: 1px solid #DADEE2;
+    margin: 0 5px 15px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: color .3s, background-color .3s, border-color .3s;
+}
+
+.filter__item.active {
+    background-color: #F6F9FC;
+    border-color: #333E50;
+}
+
+.filter__item:hover {
+    color: #7bc057;
+}
+
+.filter__item:last-child {
+    margin: 0 0 15px 0;
+}

@@ -1,0 +1,49 @@
+/* ------ */
+.Storybook-svgIconsList {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+
+}
+
+
+
+.Storybook-svgIconsList__item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #333E50;
+    border-radius: 5px;
+    min-height: 50px;
+    color: #333E50;
+    transition: box-shadow .3s;
+}
+
+.Storybook-svgIconsList__item:hover {
+    box-shadow: 0 0 10px #333e5048
+}
+
+.Storybook-svgIconsList__item > img {
+    margin-right: 15px;
+    transition: transform .3s;
+}
+
+.Storybook-svgIconsList__item:hover > img {
+    transform: scale(1.1)
+}
+
+.Storybook-svgIconsList__item > input {
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    transition: ouline .3s;
+    width: 100%;
+}
+
+@media screen and (min-width: 800px ) {
+    .Storybook-svgIconsList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
