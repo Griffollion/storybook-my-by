@@ -1,0 +1,8 @@
+@media screen and (min-width: 768px) {
+	.bg-pattern-1 {
+		position: relative;
+		background: url(/files_content/img/default-filter-bg--desc.png) 0 0, -o-linear-gradient(left, #52a7e7 0%, #52a7e7 100%);
+		background: url(/files_content/img/default-filter-bg--desc.png) 0 0, -webkit-gradient(linear, left top, right top, from(#52a7e7), to(#52a7e7));
+		background: url(/files_content/img/default-filter-bg--desc.png) 0 0, linear-gradient(to right, #52a7e7 0%, #52a7e7 100%);
+	}
+}
