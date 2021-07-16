@@ -1,1 +1,0 @@
-Fix img size on Quick-menu on tablets

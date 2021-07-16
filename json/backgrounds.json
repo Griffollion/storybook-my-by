@@ -1,0 +1,14 @@
+[
+  {
+    "name": "bg-white",
+    "code": "#fff"
+  },
+  {
+    "name": "bg-blue",
+    "code": "#f4fcff"
+  },
+  {
+    "name": "bg-blue-gradient",
+    "code": "linear-gradient(180deg, #ebf6fb 0%, #fff 100%)"
+  }
+]

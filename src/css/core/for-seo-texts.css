@@ -1,0 +1,59 @@
+.seo-text h1,
+.seo-text h2,
+.seo-text h3,
+.seo-text h4,
+.seo-text .h1,
+.seo-text .h2,
+.seo-text .h3,
+.seo-text .h4 {
+    margin-bottom: 10px;
+}
+
+.seo-text p {
+    font-size: 15px;
+}
+
+.seo-text p:last-child {
+    margin-bottom: 0;
+}
+
+.seo-text ul,
+.seo-text ol {
+    padding: 0;
+    margin: 0 0 10px 0;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.seo-text ul li,
+.seo-text ol li {
+    margin-bottom: 5px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.seo-text ul li:last-child,
+.seo-text ol li:last-child {
+    margin-bottom: 0;
+}
+
+.seo-text ul li:before,
+.seo-text ol li:before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #b4c6d2;
+    content: '';
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.seo-text ul:last-child,
+.seo-text ol:last-child {
+    margin-bottom: 0;
+
+}

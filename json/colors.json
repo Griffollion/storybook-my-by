@@ -1,0 +1,26 @@
+[
+  {
+    "name": "darck-grey",
+    "code": "#999"
+  },
+  {
+    "name": "text-gray",
+    "code": "#999"
+  },
+  {
+    "name": "negative",
+    "code": "#e62c2c"
+  },
+  {
+    "name": "down",
+    "code": "#e62c2c"
+  },
+  {
+    "name": "up",
+    "code": "#31ae18"
+  },
+  {
+    "name": "dark-gray",
+    "code": "#6b737d"
+  }
+]

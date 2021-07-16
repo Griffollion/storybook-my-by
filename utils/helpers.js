@@ -1,35 +1,3 @@
-export class Modificators {
-  constructor (label, values, displayType, defaultValue, groupId) {
-    this.label = label
-    this.values = values
-    this.displayType = displayType
-    this.defaultValue = defaultValue
-    this.groupId = groupId
-  }
-
-  get params () {
-    return this.initParams
-  }
-
-  initParams () {
-    return [
-      this.label,
-      this.values,
-      this.defaultValue,
-      this.displayType,
-      this.groupId]
-  }
-}
-
-export const expandOptions = (obj) => {
-  const options = []
-  for (const key in obj) {
-    options.push(obj[key])
-  }
-
-  return options
-}
-
 //Убирает запятые, которые генерятся при мультиселекте в аддоне optionKnobs
 export function prepareParams (arr) {
   return arr.toString().replace(/\,/gm, ' ')
@@ -90,4 +58,5 @@ export const generateStaticItems = (template, amount) => {
 
   return str
 }
+
   
