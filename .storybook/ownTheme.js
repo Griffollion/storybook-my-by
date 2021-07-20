@@ -5,5 +5,5 @@ export default create({
 
   brandTitle: 'MyfinUS Design System',
   brandUrl: 'https://myfin.us/',
-  brandImage: './src/img/logo/logo.us.svg',
+  brandImage: './src/images/new/logo-myfin.svg',
 });

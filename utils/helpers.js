@@ -48,15 +48,21 @@ export const renderDescription = (description) => {
   }
 }
 
-//Генерация однотипных элементов без параметров
-export const generateStaticItems = (template, amount) => {
-  let str = ''
+//Генерация импортируемых элементов
+export const renderElements = (arr, template) => {
+  let elements = ''
+  arr.forEach(el => {
+    elements += `${template(el)}`
+  })
 
-  for (let i = 0; i < amount; i++) {
-    str += `${template}`
-  }
+  return elements
+}
 
-  return str
+//Добавить свойство к объекту который лежит в массиве
+export const addPropertyToObj = (arr, propertyName, value) => {
+  arr.forEach(el => {
+    el[propertyName] = value
+  })
 }
 
   

@@ -53,6 +53,7 @@ export const Button = Template.bind({})
 Button.args = {
   type: 'btn-default',
   content: 'Button',
+  tag: 'div'
 }
 
 

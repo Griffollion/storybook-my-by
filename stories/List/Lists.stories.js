@@ -1,13 +1,5 @@
-const modificators = [
-  'list--dotted',
-  'list--check',
-  'list--num',
-  'list--before-orange',
-  'list--before-blue',
-  'disabled',
-  'list--inner',
-  'list--aic'
-]
+import { ListItem } from './ListItem.stories'
+import { renderElements } from '../../utils/helpers'
 
 export default {
   title: 'Components/UI/Lists/List',
@@ -15,12 +7,28 @@ export default {
     notes: `Зависимости: <b>lists.css;</b> \n
     На проекте расположены в глобальном ассете <b>GlobalStylesAsset.php</b>`,
   },
+  args: {
+    LIST_ITEM: [
+      {
+        text: 'List item',
+        modificator: ''
+      },
+      {
+        text: 'List item',
+        modificator: ''
+      },
+      {
+        text: 'List item',
+        modificator: ''
+      },
+    ]
+  },
   argTypes: {
     type: {
       options: [
         'list--dotted',
         'list--check',
-        'list--num'
+        'list--num',
       ],
       control: { type: 'select' },
     },
@@ -28,18 +36,18 @@ export default {
       options: [
         '',
         'list--before-orange',
-        'list--before-blue'
+        'list--before-blue',
       ],
       control: { type: 'select' },
     },
   },
 }
 
-const Template = ({ data, ...argTypes }) => {
+const Template = ({ data, ...args }) => {
   return (
     `
-    <ul class="list ${argTypes.type} ${argTypes.color}">
-        <li>${argTypes.content}</li>
+    <ul class="list ${args.type} ${args.color}">
+        ${renderElements(args.LIST_ITEM, ListItem)}
     </ul>
     `
   )
@@ -48,7 +56,6 @@ const Template = ({ data, ...argTypes }) => {
 export const List = Template.bind({})
 List.args = {
   type: 'list--dotted',
-  content: 'List item',
 }
 
 

@@ -35,7 +35,7 @@ module.exports = async ({ config }) => {
       {
         patterns: [
          { from: './src/**/*.css', to: './' },
-//          { from: './src/**/*.png', to: './' },
+          { from: './src/**/*.png', to: './' },
 //          { from: './src/**/*.jpg', to: './' },
           { from: './src/**/*.svg', to: './' },
           { from: './src/**/*.woff2', to: './' },

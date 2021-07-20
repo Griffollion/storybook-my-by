@@ -3,7 +3,7 @@ import backgrounds from '../json/backgrounds.json'
 import '../src/storybook/css/colors.css'
 
 export default {
-  title: 'Colors/TextColors',
+  title: 'Colors/Colors',
   parameters: {
     notes: `Зависимости: <b>global.css;</b> \n
     На проекте расположены в глобальном ассете <b>GlobalStylesAsset.php</b>`,
