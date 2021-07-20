@@ -249,6 +249,7 @@
 
 .imkliva-alter-advantages {
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .imkliva-alter-logo {
@@ -324,6 +325,12 @@
 .imkliva-alter-case-list .list {
 	color: #1A3462;
 	font-size: 16px;
+}
+
+.imkliva-alter-rules-link {
+	color: #1A3462;
+	font-size: 16px;
+	margin-top: 20px;
 }
 /*common styles //end*/
 

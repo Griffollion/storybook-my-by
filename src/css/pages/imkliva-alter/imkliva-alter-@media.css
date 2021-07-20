@@ -206,6 +206,7 @@
 	/*	common styles */
 	.imkliva-alter-advantages {
 		margin-top: 40px;
+		margin-bottom: 0;
 	}
 
 	.imkliva-alter-insurance-type {
@@ -250,6 +251,9 @@
 	}
 	.imkliva-alter-top-bg-2.imkliva-alter-top-bg-2--mob-hidden {
 		display: block;
+	}
+	.imkliva-alter-rules-link {
+		font-size: 18px;
 	}
 	/*	common styles //end */
 }
