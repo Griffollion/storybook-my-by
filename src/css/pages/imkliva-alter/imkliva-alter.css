@@ -306,6 +306,10 @@
 	margin-top: 15px;
 }
 
+.imkliva-alter-title__img.imkliva-alter-title__img--mob-hidden {
+	display: none;
+}
+
 .imkliva-alter-title__img img {
 	height: 100%;
 	width: 100%;

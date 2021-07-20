@@ -233,6 +233,10 @@
 		margin-left: 15px;
 	}
 
+	.imkliva-alter-title__img.imkliva-alter-title__img--mob-hidden {
+		display: block;
+	}
+
 	.imkliva-alter-title__img img {
 		height: 100%;
 		width: auto;
