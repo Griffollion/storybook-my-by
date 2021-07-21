@@ -1,0 +1,106 @@
+.default-table-container {
+    position: relative;
+    overflow-x: auto;
+}
+
+.default-table-container--two-tables {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .default-table-container--two-tables .default-table {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .default-table-container--mob-cell-50 .default-table td {
+        width: 50%;
+    }
+}
+
+.default-table-container h1,
+.default-table-container h2,
+.default-table-container h3,
+.default-table-container h4 {
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .default-table-container h1,
+    .default-table-container h2,
+    .default-table-container h3,
+    .default-table-container h4 {
+        padding: 10px 20px;
+    }
+}
+
+.default-table {
+    width: 100%;
+}
+
+.default-table--bt {
+    border-top: 1px solid #f1f1f1;
+}
+
+.default-table thead {
+    background: #f2f9fd;
+}
+
+.default-table thead tr:last-child {
+    border-bottom: 1px solid #afc6e0;
+}
+
+.default-table tbody tr {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.default-table tbody tr:nth-child(2n) {
+    background: #fbfbfb;
+}
+
+.default-table tbody tr:hover td {
+    background-color: #fffdc5;
+}
+
+.default-table tr th,
+.default-table tr td {
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+    -webkit-transition: background-color .25s;
+    -o-transition: background-color .25s;
+    transition: background-color .25s;
+    vertical-align: top;
+}
+
+.default-table tr th:first-child,
+.default-table tr td:first-child {
+    padding-left: 20px;
+}
+
+.default-table tr th:last-child,
+.default-table tr td:last-child {
+    padding-right: 20px;
+}
+
+.default-table small {
+    color: #CCCCCC;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+    .default-table tr th:first-child,
+    .default-table tr td:first-child {
+        padding-left: 15px;
+    }
+    .default-table tr th:last-child,
+    .default-table tr td:last-child {
+        padding-right: 15px;
+    }
+}

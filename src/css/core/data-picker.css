@@ -1,0 +1,154 @@
+/*Input and text*/
+.data-picker {
+	position: relative;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+
+.data-picker__text {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	color: #14509c;
+	border-bottom: 1px dashed #14509c;
+	pointer-events: none;
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	-webkit-transition: border-color .25s, color .25s;
+	-o-transition: border-color .25s, color .25s;
+	transition: border-color .25s, color .25s;
+}
+
+.data-picker__text:hover {
+	border-color: #e86809;
+	color: #e86809;
+}
+
+.data-picker .data-picker__text ~ input {
+	opacity: 0;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	max-width: 107px; /*Спецом сделано на пару пикселей больше Т.К. у Романа за компом в начале 2020 года почему-то разносило текст в этом инпуте на две строки. Полагаю что дело в настройках именно его компе*/
+	position: relative;
+}
+
+/*Input and text end*/
+
+/*Dropdown window*/
+.datepicker {
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+	box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+	padding: 5px;
+	width: 266px;
+	position: absolute;
+	z-index: 5;
+}
+
+.datepicker table {
+	width: 100%;
+}
+
+.datepicker table th,
+.datepicker table td {
+	width: 36px;
+	height: 30px;
+	border-radius: 4px;
+	cursor: pointer;
+	-webkit-transition: background-color .25s;
+	-o-transition: background-color .25s;
+	transition: background-color .25s;
+	text-align: center;
+}
+
+.datepicker table td:hover {
+	background-color: #eee;
+}
+
+.datepicker table td.active,
+.datepicker table td.active:hover {
+	background-color: #f78f1e;
+	font-family: roboto-bold, Arial, Helvetica, sans-serif;
+}
+
+.datepicker table td.disabled,
+.datepicker table td.disabled:hover {
+	background: none;
+	color: #777;
+	cursor: not-allowed;
+}
+
+.datepicker table thead th {
+	font-family: roboto-bold, Arial, Helvetica, sans-serif;
+}
+
+.datepicker table thead th.prev,
+.datepicker table thead th.next,
+.datepicker table thead th.datepicker-switch {
+	cursor: pointer;
+}
+
+.datepicker table thead th.prev:hover,
+.datepicker table thead th.next:hover,
+.datepicker table thead th.datepicker-switch:hover {
+	background-color: #fee777;
+}
+
+.datepicker table td.today {
+	position: relative;
+	background-color: #f78f1e;
+}
+
+.datepicker table td.today:before {
+	content: "";
+	display: inline-block;
+	border-left: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-top-color: rgba(0, 0, 0, .2);
+	border-bottom-color: #fff;
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+
+}
+
+.datepicker table td[colspan="7"]:hover {
+	background-color: transparent;
+}
+
+.datepicker table .month,
+.datepicker table .year {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 25%;
+	height: 54px;
+	border-radius: 4px;
+}
+
+.datepicker table .month:hover,
+.datepicker table .year:hover {
+	background-color: #eee;
+}
+
+.datepicker-switch {
+	font-size: 14px;
+}
+
+.datepicker table tfoot {
+	display: none;
+}
+
+/*Dropdown window end*/

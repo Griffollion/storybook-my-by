@@ -1,0 +1,29 @@
+/*Ссылки архива CBRF и страницы НБРБ. Тоже надо переделывать структуру*/
+.other-link > * {
+    display: inline;
+}
+
+.other-link .list-item li {
+    padding-right: 8px;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.other-link .list-item li:not(:first-child):before {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 2px;
+    background: #c1c1c1;
+    position: absolute;
+    top: 10px;
+    left: -5px;
+}
+
+.other-link .list-item li:last-child {
+    padding-right: 0;
+}
+
+/*Ссылки архива CBRF и страницы НБРБ. Тоже надо переделывать структуру end*/

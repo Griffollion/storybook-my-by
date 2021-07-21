@@ -1,0 +1,294 @@
+[class^="ic-"], [class*=" ic-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "MyFin" !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ic-life:before {
+	content: "\e957";
+}
+
+.ic-a1 .path1:before {
+	content: "\e954";
+	color: rgb(218, 41, 28);
+}
+
+.ic-a1 .path2:before {
+	content: "\e955";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+
+.ic-egg:before {
+	content: "\e956";
+}
+
+.ic-calendar-2:before {
+	content: "\e952";
+}
+
+.ic-update-time:before {
+	content: "\e953";
+}
+
+.ic-eye-fill:before {
+	content: "\e949";
+}
+.ic-zip:before {
+	content: "\e945";
+}
+.ic-txt:before {
+	content: "\e946";
+}
+.ic-pdf:before {
+	content: "\e947";
+}
+.ic-doc:before {
+	content: "\e948";
+}
+.ic-plus-in-circle:before {
+	content: "\e942";
+}
+.ic-plus:before {
+	content: "\e943";
+}
+.ic-user-men:before {
+	content: "\e93f";
+}
+.ic-mail:before {
+	content: "\e940";
+}
+.ic-autopayment:before {
+	content: "\e902";
+}
+.ic-chip:before {
+	content: "\e904";
+}
+.ic-deliver:before {
+	content: "\e905";
+}
+.ic-fast:before {
+	content: "\e906";
+}
+.ic-wireless:before {
+	content: "\e90c";
+}
+.ic-arrow_down:before {
+	content: "\e90d";
+}
+.ic-close:before {
+	content: "\e90e";
+}
+.ic-arrow_left:before {
+	content: "\e90f";
+}
+.ic-settings:before {
+	content: "\e910";
+}
+.ic-check:before {
+	content: "\e911";
+}
+
+.ic-check_no-border:before {
+	content: "\e912";
+}
+
+.ic-question:before {
+	content: "\e913";
+}
+
+.ic-telegram:before {
+	content: "\e914";
+}
+
+.ic-phone:before {
+	content: "\e951";
+}
+
+.ic-viber:before {
+	content: "\e915";
+}
+
+.ic-warning:before {
+	content: "\e916";
+}
+
+.ic-eye:before {
+	content: "\e917";
+}
+.ic-HCE:before {
+	content: "\e919";
+}
+.ic-doc1:before {
+	content: "\e91b";
+}
+.ic-pdf1:before {
+	content: "\e91c";
+}
+.ic-manager:before {
+	content: "\e91d";
+}
+.ic-responsive:before {
+	content: "\e91e";
+}
+.ic-link:before {
+	content: "\e91f";
+}
+.ic-Print:before {
+	content: "\e920";
+}
+.ic-coins:before {
+	content: "\e921";
+}
+.ic-currency:before {
+	content: "\e922";
+}
+.ic-alendar:before {
+	content: "\e924";
+}
+.ic-rating:before {
+	content: "\e923";
+}
+.ic-persent-ellipse:before {
+	content: "\e925";
+}
+.ic-calc:before {
+	content: "\e926";
+}
+.ic-three-dots:before {
+	content: "\e927";
+}
+.ic-arrow-up:before {
+	content: "\e928";
+}
+.ic-arrow-down:before {
+	content: "\e929";
+}
+.ic-excharge:before {
+	content: "\e92a";
+}
+.ic-star-stroke:before {
+	content: "\e92b";
+}
+.ic-star-fill:before {
+	content: "\e92c";
+}
+.ic-arrow_left1:before {
+	content: "\e92d";
+}
+.ic-arrow_right:before {
+	content: "\e92e";
+}
+.ic-arrow_top:before {
+	content: "\e92f";
+}
+.ic-map-mrker:before {
+	content: "\e930";
+}
+.ic-exchange-arrows:before {
+	content: "\e931";
+}
+.ic-messages:before {
+	content: "\e932";
+}
+.ic-sort-by-down:before {
+	content: "\e933";
+}
+.ic-sort-by-up:before {
+	content: "\e934";
+}
+.ic-facebook:before {
+	content: "\e935";
+}
+.ic-vk:before {
+	content: "\e936";
+}
+.ic-google:before {
+	content: "\e937";
+}
+.ic-ok:before {
+	content: "\e938";
+}
+.ic-twitter:before {
+	content: "\e939";
+}
+.ic-yandex:before {
+	content: "\e93a";
+}
+.ic-rss:before {
+	content: "\e93b";
+}
+.ic-instagram:before {
+	content: "\e941";
+}
+.ic-arrow-right:before {
+	content: "\e93c";
+}
+.ic-breadcrumb-arrow:before {
+	content: "\e93d";
+}
+.ic-search:before {
+	content: "\e93e";
+}
+.ic-heart:before {
+	content: "\e944";
+}
+.ic-mastercard:before {
+	content: "\e907";
+}
+.ic-visa:before {
+	content: "\e90b";
+}
+.ic-samsung_pay:before {
+	content: "\e90a";
+}
+.ic-apple_pay:before {
+	content: "\e901";
+}
+.ic-belkart:before {
+	content: "\e903";
+}
+.ic-paypass:before {
+	content: "\e908";
+}
+.ic-paywave:before {
+	content: "\e909";
+}
+.ic-instant_issue:before {
+	content: "\e918";
+}
+.ic-android_pay:before {
+	content: "\e91a";
+}
+.ic-3d_secure:before {
+	content: "\e900";
+}
+.ic-other-pay-system:before {
+	content: "\e94a";
+}
+.ic-union-pay:before {
+	content: "\e94b";
+}
+.ic-mir:before {
+	content: "\e94c";
+}
+.ic-mipay:before {
+	content: "\e94d";
+}
+.ic-pay:before {
+	content: "\e94e";
+}
+.ic-fitbit:before {
+	content: "\e94f";
+}
+.ic-garmin-pay:before {
+	content: "\e950";
+}

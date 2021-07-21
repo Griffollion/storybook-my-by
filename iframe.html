@@ -37,6 +37,7 @@
     margin: 0;
     padding: 1rem;
     display: block;
+    box-sizing: border-box;
   }
 
   .sb-wrapper {
@@ -124,45 +125,43 @@
       })
     );
   };</script><style>@font-face {
-    font-family: roboto-regular;
-    font-display: swap;
-    font-weight: normal;
-    font-style: normal;
-    src: url("./src/fonts/roboto-regular.woff2") format("woff2"),
-      url("./src/fonts/roboto-regular.woff") format("woff"),
-      url("./src/fonts/roboto-regular.ttf") format("truetype");
+      font-family: MyFIn;
+      font-display: swap;
+      src: url(./src/fonts/MyFin.woff2?w2yx3c122zm1s) format('woff2'), url(./src/fonts/MyFin.ttf?w2yx3c122zm1s) format('truetype'), url(./src/fonts/MyFin.woff?w2yx3c122zm1s) format('woff');
+      font-weight: 400;
+      font-display: swap;
+      font-style: normal
   }
+
   @font-face {
-    font-family: roboto-bold;
-    font-display: swap;
-    font-weight: normal;
-    font-style: normal;
-    src: url("./src/fonts/roboto-bold.woff2") format("woff2"),
-      url("./src/fonts/roboto-bold.woff") format("woff"),
-      url("./src/fonts/roboto-bold.ttf") format("truetype");
+      font-family: roboto-light;
+      font-display: swap;
+      src: local(roboto-light), url(./src/fonts/roboto-light.woff2) format("woff2"), url(./src/fonts/roboto-light.eot?#iefix) format("embedded-opentype"), url(./src/fonts/roboto-light.woff) format("woff"), url(./src/fonts/roboto-light.ttf) format("truetype"), url(./src/fonts/roboto-light.svg#roboto-light) format("svg")
   }
+
   @font-face {
-    font-family: roboto-light;
-    font-display: swap;
-    font-weight: normal;
-    font-style: normal;
-    src: url("./src/fonts/roboto-light.woff2") format("woff2"),
-      url("./src/fonts/roboto-light.woff") format("woff"),
-      url("./src/fonts/roboto-light.ttf") format("truetype");
+      font-family: roboto-regular;
+      font-display: swap;
+      src: local(roboto-regular), url(./src/fonts/roboto-regular.woff2) format("woff2"), url(./src/fonts/roboto-regular.eot?#iefix) format("embedded-opentype"), url(./src/fonts/roboto-regular.woff) format("woff"), url(./src/fonts/roboto-regular.ttf) format("truetype"), url(./src/fonts/roboto-regular.svg#roboto-regular) format("svg")
   }
+
   @font-face {
-    font-family: "icomoon";
-    font-display: swap;
-    font-weight: normal;
-    font-style: normal;
-    src: url("./src/fonts/icomoon.woff2?y93jt4") format("woff2"),
-      url("./src/fonts/icomoon.woff?y93jt4") format("woff"),
-      url("./src/fonts/icomoon.ttf?y93jt4") format("truetype");
-  }</style><link href="./src/css/reset.css" rel="stylesheet"><link href="./src/css/global-styles/typography.css" rel="stylesheet"><link href="./src/css/global-styles/typography-@media.css" rel="stylesheet"><link href="./src/css/global-styles/common.css" rel="stylesheet"><link href="./src/css/global-styles/modificators.css" rel="stylesheet"><link href="./src/css/global-styles/custom-icons.css" rel="stylesheet"><link href="./src/css/global-styles/btns.css" rel="stylesheet"><link href="./src/css/global-styles/borders.css" rel="stylesheet"><link href="./src/css/global-styles/colors.css" rel="stylesheet"><link href="./src/css/global-styles/containers.css" rel="stylesheet"><link href="./src/css/global-styles/containers-@media.css" rel="stylesheet"><link href="./src/css/global-styles/hiddens.css" rel="stylesheet"><link href="./src/css/global-styles/hiddens-@media.css" rel="stylesheet"><link href="./src/css/global-styles/inputs.css" rel="stylesheet"><link href="./src/css/global-styles/links.css" rel="stylesheet"><link href="./src/css/global-styles/lists.css" rel="stylesheet"><link href="./src/css/global-styles/seo.css" rel="stylesheet"><link href="./src/css/global-styles/tables.css" rel="stylesheet"><link href="./src/css/global-styles/tables-@media.css" rel="stylesheet"><link href="./src/css/global-styles/layouts.css" rel="stylesheet"><link href="./src/css/global-styles/layouts-@media.css" rel="stylesheet"><link href="./src/css/global-styles/labels.css" rel="stylesheet"><link href="./src/css/global-styles/content-container.css" rel="stylesheet"><link href="./src/css/global-styles/content-container-@media.css" rel="stylesheet"><link href="./src/css/global-styles/flex.css" rel="stylesheet"><link href="./src/css/global-styles/flex-@media.css" rel="stylesheet"><link href="./src/storybook/css/iconList.css" rel="stylesheet"><link href="./src/storybook/css/svg-icons-list.css" rel="stylesheet"><link href="./src/storybook/css/components/articles-list/articles-list.css" rel="stylesheet"><link href="./src/storybook/css/components/filter/filter.css" rel="stylesheet"><style>#root[hidden],
+      font-family: roboto-bold;
+      font-display: swap;
+      src: local(roboto-bold), url(./src/fonts/roboto-bold.woff2) format("woff2"), url(./src/fonts/roboto-bold.eot?#iefix) format("embedded-opentype"), url(./src/fonts/roboto-bold.woff) format("woff"), url(./src/fonts/roboto-bold.ttf) format("truetype"), url(./src/fonts/roboto-bold.svg#roboto-bold) format("svg")
+  }
+
+  html, body {
+      font-family: roboto-regular, Helvetica, Arial, sans-serif;
+  }</style><link href="./src/css/core/fonts.css" rel="stylesheet"><link href="./src/css/core/bootstrap-shit.css" rel="stylesheet"><link href="./src/css/core/core.css" rel="stylesheet"><link href="./src/css/core/custom-icons.css" rel="stylesheet"><link href="./src/css/core/iconb.css" rel="stylesheet"><link href="./src/css/core/footer-and-header.css" rel="stylesheet"><link href="./src/css/core/main-nav.css" rel="stylesheet"><link href="./src/css/core/global.css" rel="stylesheet"><link href="./src/css/core/breadcrumb.css" rel="stylesheet"><link href="./src/css/core/nav-tabs.css" rel="stylesheet"><link href="./src/css/core/for-seo-texts.css" rel="stylesheet"><link href="./src/css/core/social-icons.css" rel="stylesheet"><link href="./src/css/core/backgrounds.css" rel="stylesheet"><link href="./src/css/core/backgrounds-@media.css" rel="stylesheet"><link href="./src/css/core/lists.css" rel="stylesheet"><link href="./src/css/core/flex.css" rel="stylesheet"><link href="./src/storybook/css/iconList.css" rel="stylesheet"><link href="./src/storybook/css/svg-icons-list.css" rel="stylesheet"><link href="./src/storybook/css/components/articles-list/articles-list.css" rel="stylesheet"><link href="./src/storybook/css/components/filter/filter.css" rel="stylesheet"><style>#root[hidden],
       #docs-root[hidden] {
         display: none !important;
       }</style></head><body><div class="sb-nopreview sb-wrapper"><div class="sb-nopreview_main"><h1 class="sb-nopreview_heading sb-heading">No Preview</h1><p>Sorry, but you either have no stories or none are selected somehow.</p><ul><li>Please check the Storybook config.</li><li>Try reloading the page.</li></ul><p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p></div></div><div class="sb-errordisplay sb-wrapper"><pre id="error-message" class="sb-heading"></pre><pre class="sb-errordisplay_code"><code id="error-stack"></code></pre></div><div id="root"></div><div id="docs-root"></div><script>window['LOGLEVEL'] = "info";
             
         
             
-              window['FRAMEWORK_OPTIONS'] = {};</script><script src="runtime~main.3bf54327c463b5b9dac5.bundle.js"></script><script src="vendors~main.3bf54327c463b5b9dac5.bundle.js"></script><script src="main.3bf54327c463b5b9dac5.bundle.js"></script></body></html>
+              window['FRAMEWORK_OPTIONS'] = {};
+            
+        
+            
+              window['FEATURES'] = {"postcss":true};</script><script src="runtime~main.02210dfb.iframe.bundle.js"></script><script src="vendors~main.9f8c06a9.iframe.bundle.js"></script><script src="main.1fab86e6.iframe.bundle.js"></script></body></html>
