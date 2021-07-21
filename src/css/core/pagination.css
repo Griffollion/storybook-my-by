@@ -1,0 +1,81 @@
+
+.pagination-new {
+    background-color: #fff
+}
+
+.pagination-new.pagination-new--v2 {
+    background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+    .pagination-new.pagination-new--v2 ul {
+        padding-top: 15px;
+        border-top: 1px solid #ebebeb;
+    }
+}
+
+.pagination-new.pagination-new--v2 ul {
+    padding-top: 15px;
+}
+
+.pagination-new.pagination-new--v2 li {
+    background-color: #fff;
+}
+
+.pagination-new ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 1.2;
+    margin-bottom: 0;
+    padding-bottom: 15px
+}
+
+.pagination-new ul .ic-pagin-next:before,.pagination-new ul .ic-pagin-prev:before {
+    font-size: 12px
+}
+
+.pagination-new .disabled a {
+    color: #eee
+}
+
+.pagination-new li:first-child a {
+    border-radius: 2px 0 0 2px
+}
+
+.pagination-new li:last-child a {
+    border-radius: 0 2px 2px 0
+}
+
+.pagination-new li.active a {
+    color: #000;
+    background-color: #ebf6fb
+}
+
+.pagination-new a {
+    display: block;
+    padding: 11px 15px;
+    margin-left: -1px;
+    border: 1px solid #ddd
+}
+
+.pagination-new a:hover {
+    background-color: #ebf6fb
+}
+
+.ic-pagin-next:before,
+.ic-pagin-prev:before {
+    font-family: MyFIn;
+}
+
+.ic-pagin-next:before {
+    content: "\e92e";
+}
+
+.ic-pagin-prev:before {
+    content: "\e92d";
+}
+

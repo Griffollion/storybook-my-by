@@ -1,7 +1,7 @@
 export default {
   title: 'Components/UI/Buttons',
   parameters: {
-    notes: `Зависимости: <b>btns.css;</b> \n
+    notes: `Зависимости: <b>core.css;</b> \n
     На проекте расположены в глобальном ассете <b>GlobalStylesAsset.php</b>`,
   },
   argTypes: {
