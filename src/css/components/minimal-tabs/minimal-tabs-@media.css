@@ -1,0 +1,57 @@
+/*TODO: Такой себе компонент. Лучше бы от него отказаться. Либо переделать*/
+@media screen and (max-width: 991px) {
+	.minimal-tabs-block {
+		padding: 0 15px;
+	}
+
+	.minimal-tabs__hidden-list {
+		right: 0;
+	}
+
+	.minimal-tabs__btn {
+		font-size: 18px;
+	}
+
+	.minimal-tabs-block {
+		padding: 0 15px;
+	}
+
+	.minimal-tabs__item {
+		padding-right: 20px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.minimal-tabs {
+		position: relative;
+		overflow-x: auto;
+		padding: 0;
+	}
+
+	.minimal-tabs__item:last-child {
+		padding-right: 20px;
+	}
+
+	.minimal-tabs__btn {
+		font-size: 16px;
+		padding: 10px 5px 15px 5px;
+	}
+
+	.minimal-tabs-block {
+		padding: 0 40px;
+	}
+
+	.minimal-tabs-block__absolute {
+		display: inline-block;
+	}
+
+	.minimal-tabs__item {
+		width: auto;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.minimal-tabs .minimal-tabs__item:first-child {
+		width: auto;
+	}
+}

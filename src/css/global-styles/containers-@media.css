@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px) {
+	.page-content {
+		padding-bottom: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.padding-block {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+/* container */
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 1010px;
+		padding-left: 15px;
+		padding-right: 15px;
+		margin: 0 auto;
+	}
+
+	/* container--big */
+	.container.container--big {
+		max-width: 1210px;
+	}
+	/* container--big //end */
+}
+
+/* container //end */
+
+/* sections */
+@media screen and (min-width: 768px) {
+	.section {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.section.section--small {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	.section.section--large {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.section.section--indent-bottom {
+		padding-top: 0;
+	}
+
+	.section.section--indent-top {
+		padding-top: 0;
+	}
+}
+
+/* sections //end */

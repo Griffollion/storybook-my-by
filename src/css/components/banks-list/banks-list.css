@@ -1,0 +1,33 @@
+.banks-list__list {
+	display: none;
+}
+
+.banks-list__list.active {
+	display: block;
+}
+
+.banks-list__list-item {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #ebebeb;
+}
+
+.banks-list__list-item:first-child {
+	padding-top: 0;
+	border: none;
+}
+
+.banks-list__list-item:last-child {
+	padding-bottom: 10px;
+}
+
+.banks-list__map {
+	display: none;
+	height: 85vh;
+	position: relative;
+}
+
+.banks-list__map.active {
+	display: block;
+}
+

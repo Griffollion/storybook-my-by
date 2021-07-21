@@ -1,0 +1,19 @@
+.company-short-tiles {
+
+
+}
+
+.company-short-tiles__grid {
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 20px;
+	grid-template-columns: repeat(5, 1fr);
+	padding: 35px;
+	justify-content: flex-start;
+	position: relative;
+	overflow-x: auto;
+}
+
+.company-short-tiles__item {
+	
+}

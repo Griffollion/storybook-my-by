@@ -1,0 +1,69 @@
+.features__features {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.features__features-item {
+	margin-right: 20px;
+	margin-bottom: 15px;
+}
+
+.features__features-item:last-child {
+	margin-right: 0;
+}
+
+.features__features-item img {
+	height: 20px;
+	width: auto;
+}
+
+.features__list {
+	position: relative;
+}
+
+.features__list:before {
+	content: "";
+	height: 100%;
+	width: 60px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	pointer-events: none;
+	background: rgb(255, 255, 255);
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 1) 100%);
+}
+
+.features__list-wrapper {
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.features__list-grid li {
+	margin-top: 0;
+	white-space: nowrap;
+	font-size: 16px;
+}
+
+.features__list-grid {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-rows: repeat(6, fit-content(100%));
+	grid-gap: 10px 50px;
+}
+
+.features__list-grid li {
+	position: relative;
+}
+
+.features__list-grid li:nth-last-child(1),
+.features__list-grid li:nth-last-child(2),
+.features__list-grid li:nth-last-child(3),
+.features__list-grid li:nth-last-child(4),
+.features__list-grid li:nth-last-child(5),
+.features__list-grid li:nth-last-child(6) {
+	z-index: 3;
+}

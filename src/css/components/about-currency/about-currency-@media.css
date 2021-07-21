@@ -1,0 +1,38 @@
+@media screen and (max-width: 991px) {
+	.about-currency__title-img {
+		width: 50px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.about-currency__name--black {
+		font-size: 16px;
+		line-height: 24px;
+		font-family: roboto-regular, Helvetica, Arial, sans-serif;
+	}
+
+	.about-currency__name--grey {
+		font-size: 16px;
+		line-height: 24px;
+		font-family: roboto-regular, Helvetica, Arial, sans-serif;
+	}
+
+	.about-currency__item-left {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.about-currency__item-right {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.about-currency__item {
+		padding: 2px 0;
+	}
+
+	.about-currency__item-right-text {
+		font-size: 14px;
+		line-height: 21px;
+	}
+}

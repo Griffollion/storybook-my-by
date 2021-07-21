@@ -1,0 +1,7 @@
+.content-container {
+	padding: 20px 10px;
+}
+
+.content-container.content-container--rounded {
+	border-radius: 3px;
+}

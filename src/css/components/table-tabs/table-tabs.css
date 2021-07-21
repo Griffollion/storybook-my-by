@@ -1,0 +1,26 @@
+.table-tabs__row {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 20px 0;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.table-tabs__row-left {
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.table-tabs__row-right {
+	font-size: 18px;
+	line-height: 18px;
+	color: #0e1829;
+	text-align: right;
+}

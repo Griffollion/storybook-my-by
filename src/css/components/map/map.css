@@ -1,0 +1,37 @@
+.map-cluster {
+	width: 50px;
+	height: 50px;
+}
+
+.map-cluster img {
+	width: 100%;
+	height: auto;
+}
+
+.map-cluster [aria-label] {
+	font-size: 14px;
+	left: 0;
+	top: 18px;
+	outline: none;
+}
+
+/* map-info-window */
+.map-info-window {
+
+}
+
+.map-info-window__item {
+	font-family: roboto-regular;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.map-info-window__item.accent {
+	font-family: roboto-bold;
+}
+
+.map-info-window__item:last-child {
+	margin-bottom: 0;
+}
+
+/* map-info-window //end */

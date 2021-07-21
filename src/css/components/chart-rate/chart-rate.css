@@ -1,0 +1,102 @@
+/*TODO: имеются инородные классы*/
+.chart-rate__nav {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	border-bottom: 1px solid #b4c6d2;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	padding-left: 0;
+}
+
+.chart-rate__nav-item {
+	list-style: none;
+}
+
+.chart-rate__nav-link {
+	min-width: 70px;
+	margin-left: 10px;
+	background: #ebf6fb;
+	padding: 5px;
+	border: 1px solid #ebf6fb;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	color: #6b737d;
+	font-size: 14px;
+	position: relative;
+}
+
+.chart-rate__nav-link:hover {
+	color: #000;
+}
+
+.chart-rate__nav-link.active {
+	border-top: 1px solid #b4c6d2;
+	border-right: 1px solid #b4c6d2;
+	border-left: 1px solid #b4c6d2;
+	border-bottom: 1px solid transparent;
+	background: #fff;
+	color: #000;
+}
+
+.chart-rate__nav-link.active::before {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	position: absolute;
+	left: -1px;
+	bottom: -2px;
+	border-right: 1px solid #b4c6d2;
+	border-left: 1px solid #b4c6d2;
+}
+
+.chart {
+	width: 100%;
+	height: 500px;
+}
+
+.chart-rate__content-item {
+	display: none;
+}
+
+.chart-rate__content-item.active {
+	display: block;
+}
+
+.chart-text {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.chart-text__category {
+	color: #6b737d;
+}
+
+.chart-text__val-name {
+	color: #6b737d;
+}
+
+.chart-text__value {
+	color: #000;
+	font-family: roboto-bold;
+}
+
+a[title="JavaScript charts"] {
+	display: none !important;
+}

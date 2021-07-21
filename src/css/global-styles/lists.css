@@ -1,0 +1,223 @@
+ol li {
+	margin-bottom: 10px;
+}
+
+ol li:last-child {
+	margin-bottom: 0;
+}
+
+.list {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.list > li {
+	margin-top: 10px;
+	position: relative;
+}
+
+.list > li:first-child {
+	margin-top: 0;
+}
+
+.list .list {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 20px;
+}
+
+.list.list--inner-pl-0 .list {
+	padding-left: 0;
+}
+
+/* list--m-medium */
+.list.list--m-medium > li {
+	margin-top: 15px;
+}
+
+.list.list--m-medium > li:first-child {
+	margin-top: 0;
+}
+
+/* list--m-medium //end */
+
+/* list--dotted */
+.list.list--dotted > li {
+	padding-left: 16px;
+}
+
+.list.list--dotted > li:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background-color: #14509c;
+	display: inline-flex;
+}
+
+/* list--dotted //end */
+
+/* list--check */
+.list.list--check > li {
+	padding-left: 23px;
+}
+
+.list.list--check > li:before {
+	content: "\e91a";
+	position: absolute;
+	left: 0;
+	top: 1px;
+	font-size: 0.9em;
+	font-family: icomoon;
+	color: #f78f1e;
+}
+
+/* list--check //end */
+
+/* list--num */
+.list.list--num {
+	counter-reset: listNum;
+}
+
+.list.list--num > li {
+	padding-left: 0;
+}
+
+.list.list--num > li::before {
+	counter-increment: listNum;
+	content: counter(listNum) ".";
+	font-family: roboto, Arial, Helvetica, sans-serif;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+/* list--num //end */
+
+/* list--content-num */
+.list.list--content-num > li {
+	padding-left: 0;
+}
+
+.list.list--content-num {
+	counter-reset: listNum;
+}
+
+.list.list--content-num > li::before {
+	counter-increment: listNum;
+	content: counter(listNum) ".";
+	font-family: roboto, Arial, Helvetica, sans-serif;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+/* list--content-num //end */
+
+/* list--num-start-* */
+.list.list--num-start-2 {
+	counter-reset: listNum 1;
+}
+
+.list.list--num-start-3 {
+	counter-reset: listNum 2;
+}
+
+.list.list--num-start-4 {
+	counter-reset: listNum 3;
+}
+
+.list.list--num-start-5 {
+	counter-reset: listNum 4;
+}
+
+.list.list--num-start-6 {
+	counter-reset: listNum 5;
+}
+
+.list.list--num-start-7 {
+	counter-reset: listNum 6;
+}
+
+.list.list--num-start-8 {
+	counter-reset: listNum 7;
+}
+
+.list.list--num-start-9 {
+	counter-reset: listNum 8;
+}
+
+.list.list--num-start-10 {
+	counter-reset: listNum 9;
+}
+
+.list.list--num-start-11 {
+	counter-reset: listNum 10;
+}
+
+.list.list--num-start-12 {
+	counter-reset: listNum 11;
+}
+
+.list.list--num-start-13 {
+	counter-reset: listNum 12;
+}
+
+.list.list--num-start-14 {
+	counter-reset: listNum 13;
+}
+
+.list.list--num-start-15 {
+	counter-reset: listNum 14;
+}
+
+.list.list--num-start-16 {
+	counter-reset: listNum 15;
+}
+
+.list.list--num-start-17 {
+	counter-reset: listNum 16;
+}
+
+.list.list--num-start-18 {
+	counter-reset: listNum 17;
+}
+
+.list.list--num-start-19 {
+	counter-reset: listNum 18;
+}
+
+.list.list--num-start-20 {
+	counter-reset: listNum 19;
+}
+
+/* list--num-start-* //end */
+
+/* list--before-orange */
+.list.list--before-orange.list--check > li:before,
+.list.list--before-orange.list--num > li:before,
+.list.list--before-orange.list--content-num > li:before {
+	color: #f78f1e;
+}
+
+.list.list--before-orange.list--dotted > li:before {
+	background-color: #f78f1e;
+}
+
+/* list--before-orange //end */
+
+/* list--before-blue */
+.list.list--before-blue.list--check > li:before,
+.list.list--before-blue.list--num > li::before,
+.list.list--before-blue.list--content-num > li:before {
+	color: #14509c;
+}
+
+.list.list--before-blue.list--dotted > li:before {
+	background-color: #14509c;
+}
+
+/* list--before-blue //end */
+

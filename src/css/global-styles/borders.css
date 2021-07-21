@@ -1,0 +1,20 @@
+.bb-1,
+.border-bottom {
+	border-bottom: 1px solid #ebebeb;
+}
+
+.bt-1 {
+	border-top: 1px solid #ebebeb;
+}
+
+.bl-1 {
+	border-left: 1px solid #ebebeb;
+}
+
+.br-1 {
+	border-right: 1px solid #ebebeb;
+}
+
+.b-dark {
+	border-color: #b4c6d2;
+}

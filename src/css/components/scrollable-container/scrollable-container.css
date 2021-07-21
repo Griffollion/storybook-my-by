@@ -1,0 +1,20 @@
+.scrollable-container {
+	position: relative;
+	overflow: hidden;
+}
+
+.scrollable-container__wrapper {
+	display: flex;
+	position: relative;
+	overflow-x: auto;
+	margin-bottom: -5px;
+}
+
+.scrollable-container__wrapper > * {
+	margin-right: 15px;
+	flex-shrink: 0;
+}
+
+.scrollable-container__wrapper > *:last-child {
+	margin-right: 0;
+}

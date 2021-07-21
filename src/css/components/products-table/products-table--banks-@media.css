@@ -1,0 +1,163 @@
+@media screen and (min-width: 768px) {
+	.products-table.products-table--banks .products-table__head {
+		grid-template-columns: 20% 20% 20% 20% 20%;
+	}
+
+	.products-table.products-table--banks .products-table__body-item {
+		display: grid;
+		align-items: center;
+		grid-template-areas: "logo name branches assets near" "more . . . ." "additional-info additional-info additional-info additional-info additional-info" "addresses addresses addresses addresses addresses";
+		grid-template-columns: 20% 20% 20% 20% 20%;
+		padding: 15px 0 0 0;
+	}
+
+	.products-table.products-table--banks .products-table__body-item.toggled,
+	.products-table.products-table--banks .products-table__body-item.active {
+		box-shadow: 0 7px 20px rgba(38, 48, 66, 0.2);
+	}
+
+	.products-table.products-table--banks .products-table__body-item-logo,
+	.products-table.products-table--banks .products-table__body-item-name {
+		border: none;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-logo,
+	.products-table.products-table--banks .products-table__body-item-more {
+		padding: 0 10px 0 30px;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-name,
+	.products-table.products-table--banks .products-table__body-item-branches,
+	.products-table.products-table--banks .products-table__body-item-assets,
+	.products-table.products-table--banks .products-table__body-item-near {
+		padding: 0 10px 0 10px;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-name {
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-branches {
+		font-size: 16px;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-assets {
+		text-align: left;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-more {
+		justify-content: flex-start;
+		padding-bottom: 5px;
+		padding-top: 5px;
+	}
+	.products-table.products-table--banks .products-table__body-item-near {
+		font-size: 16px;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-near > * {
+		grid-template-areas: "text icon";
+		justify-content: flex-start;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-subtext {
+		display: none;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-additional-info {
+		padding: 15px 0 5px 0;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-additional-info .icon-close {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 2;
+		cursor: pointer;
+		height: 40px;
+		width: 40px;
+		color: #b4c6d2;
+		font-size: 16px;
+		transition: filter .25s;
+	}
+	.products-table.products-table--banks .products-table__body-item-additional-info .icon-close:hover {
+		filter: brightness(1.1);
+	}
+	.products-table.products-table--banks .products-table__body-item-additional-info .icon-close:active {
+		filter: brightness(0.9);
+	}
+
+	.products-table.products-table--banks .products-table__body-item-additional-info-wrapper {
+		display: grid;
+		grid-template-areas: "name info info info info" "name info info info info";
+		grid-template-columns: 20% 20% 20% 20% 20%;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-additional-info-title {
+		grid-area: name;
+		padding-left: 30px;
+		padding-right: 10px;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-additional-info-item {
+		padding: 0 10px 0 10px;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-addresses {
+		padding: 0;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-addresses .icon-close {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top: 6px;
+		right: 0;
+		z-index: 2;
+		cursor: pointer;
+		height: 40px;
+		width: 40px;
+		color: #b4c6d2;
+		font-size: 16px;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-addresses-search {
+		background-color: #fff;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-addresses-search .form-search {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-addresses-search [class^="icon-"] {
+		left: 20px;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-addresses-item {
+		display: grid;
+		grid-template-columns: 20% 40% 20% 20%;
+		padding: 20px 0;
+		align-items: center;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-addresses-item-title {
+		padding-left: 30px;
+		padding-right: 10px;
+		margin: 0;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-addresses-item-info {
+		padding: 0 10px 0 33px;
+		margin: 0;
+	}
+
+	.products-table.products-table--banks .products-table__body-item-addresses-item-info [class^="icon-"]:first-of-type {
+		left: 10px;
+	}
+
+}

@@ -1,0 +1,85 @@
+@media screen and (min-width: 768px) {
+	.negative-content {
+		position: relative;
+	}
+
+	.negative-content.negative-content--big .negative-content__content {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.negative-content.negative-content--big.negative-content.negative-content--upper .negative-content__content {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.negative-content__content {
+		padding: 0 100px;
+	}
+
+	/* negative-content--lower */
+	.negative-content.negative-content--lower {
+		position: relative;
+		padding-bottom: 130px;
+		/*TODO: не добавлять верхний отступ и посмотреть что будет при массовой замене*/
+		/*padding-top: 10px;*/
+	}
+
+	/* negative-content--lower //end */
+	/* negative-content--upper */
+	.negative-content.negative-content--upper {
+		margin-top: -130px;
+		/*TODO: не добавлять нижний отступ и посмотреть что будет при массовой замене*/
+		/*margin-bottom: 30px;*/
+		box-sizing: border-box;
+		position: relative;
+		z-index: 5;
+	}
+
+	.negative-content.negative-content--upper .negative-content__content {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		box-shadow: 0 16px 50px rgba(0, 0, 0, 0.1);
+		border-radius: 5px;
+		min-height: 130px;
+	}
+
+	/* negative-content--upper  //end */
+	/* mob:negative-content--shadow */
+	.negative-content.mob\:negative-content--shadow {
+		box-shadow: none;
+	}
+	/* mob:negative-content--shadow //end */
+	/* mob:negative-content--rounded */
+	.negative-content.mob\:negative-content--rounded {
+		border-radius: 0;
+	}
+	/* mob:negative-content--rounded //end */
+	/* tablet:negative-content__inner--col-2 */
+	.negative-content__inner.tablet\:negative-content__inner--col-2 {
+		display: grid;
+		grid-template-columns: fit-content(100%) 1fr;
+		grid-column-gap: 50px;
+	}
+	/* tablet:negative-content__inner--col-2 */
+}
+
+@media screen and (min-width: 1024px) {
+	/* laptop:negative-content__inner--col-2 */
+	.negative-content__inner.laptop\:negative-content__inner--col-2 {
+		display: grid;
+		grid-template-columns: fit-content(100%) 1fr;
+		grid-column-gap: 50px;
+	}
+	/* laptop:negative-content__inner--col-2 */
+}
+
+@media screen and (min-width: 1200px) {
+	/* desktop:negative-content__inner--col-2 */
+	.negative-content__inner.desktop\:negative-content__inner--col-2 {
+		display: grid;
+		grid-template-columns: fit-content(100%) 1fr;
+		grid-column-gap: 50px;
+	}
+	/* desktop:negative-content__inner--col-2 */
+}

@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) {
+	.flexable-content-wrapper {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.flexable-content-wrapper {
+		margin-top: 0;
+		margin-left: 20px;
+	}
+	.flexable-content-wrapper:first-child {
+		margin-left: 0;
+	}
+}

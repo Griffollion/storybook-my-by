@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) {
+	/* publication-signature--adaptive */
+	.publication-signature.publication-signature--adaptive {
+		flex-direction: row;
+	}
+	.publication-signature.publication-signature--adaptive .publication-signature__date {
+		margin-top: 0;
+	}
+
+	.publication-signature.publication-signature--adaptive > * {
+		padding-right: 15px;
+		border-right: 1px solid #6b737d;
+		margin-right: 15px;
+	}
+
+	.publication-signature.publication-signature--adaptive > *:last-child {
+		padding-right: 0;
+		margin-right: 0;
+		border-right: none;
+	}
+	/* publication-signature--adaptive //end */
+}

@@ -1,0 +1,48 @@
+@media screen and (min-width: 1024px) {
+	.banks-list {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.banks-list__map {
+		display: block;
+		height: 900px;
+	}
+
+	.banks-list__list {
+		display: block;
+		position: relative;
+		overflow-y: auto;
+		height: 900px;
+		padding-right: 20px;
+	}
+
+	.banks-list__list-item {
+		position: relative;
+		padding: 20px 10px;
+	}
+	.banks-list__list-item.focused {
+		background-color: #ebf6fb;
+	}
+
+	.banks-list__list-item:first-child {
+		padding-top: 10px;
+		border: none;
+	}
+
+	.banks-list__list-item:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		transition: background-color .25s;
+		pointer-events: none;
+	}
+
+	.banks-list__list-item:hover:before {
+		background-color: #ebf6fb;
+	}
+
+}

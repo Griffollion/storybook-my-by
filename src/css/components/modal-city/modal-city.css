@@ -1,0 +1,75 @@
+.modal-city {
+	height: 100%;
+	position: relative;
+	overflow-y: auto;
+}
+
+.modal-city__search {
+	padding: 15px 10px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.modal-city__search-title {
+	font-size: 16px;
+	font-family: roboto-bold;
+	margin-bottom: 10px;
+}
+
+.modal-city__search .form-search {
+	font-size: 16px;
+	position: relative;
+}
+
+.modal-city__search .form-search:after {
+	content: "\e901";
+	font-family: "icomoon";
+	font-size: 1em;
+	position: absolute;
+	right: 15px;
+	top: 8px;
+	color: #b4c6d2;
+	pointer-events: none;
+}
+
+.modal-city__popular {
+	padding: 15px 10px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.modal-city__popular-title {
+	font-size: 15px;
+	font-family: roboto-bold;
+	margin-bottom: 10px;
+}
+
+.modal-city__popular-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.modal-city__popular-list li {
+	margin-bottom: 10px;
+}
+
+.modal-city__popular-list li:last-child {
+	margin-bottom: 0;
+}
+
+.modal-city__cities {
+	display: flex;
+	flex-direction: column;
+}
+
+.modal-city__cities > a {
+	margin-bottom: 10px;
+}
+
+.modal-city__cities > a:last-child {
+	margin-bottom: 0;
+}
+
+.modal-city__cities-list {
+	padding: 15px 10px;
+}
+

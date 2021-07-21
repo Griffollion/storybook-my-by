@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+	.article-layout {
+		flex-direction: row;
+		max-width: 100%;
+	}
+
+	.article-layout__content {
+		flex-grow: 2;
+		order: 0;
+		width: calc(100% - 350px);
+	}
+
+	.article-layout__sidebar {
+		order: 1;
+		width: 300px;
+		flex-shrink: 0;
+		margin-left: 50px;
+	}
+
+	.article-content {
+		position: sticky;
+		right: 0;
+		top: 60px;
+	}
+}

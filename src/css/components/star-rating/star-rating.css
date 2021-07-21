@@ -1,0 +1,25 @@
+.star-rating {
+	display: inline-flex;
+	align-items: center;
+}
+
+.star-rating__item {
+	color: #f78f1e;
+	line-height: 0;
+	margin-right: 0.2em;
+}
+
+.star-rating__item:last-child {
+	margin-right: 0;
+}
+
+.star-rating__item:before {
+	content: "\e90d";
+	font-family: "icomoon";
+	font-size: 1em;
+	line-height: 1em;
+}
+
+.star-rating__item.star-rating__item--fill:before {
+	content: "\e90c";
+}

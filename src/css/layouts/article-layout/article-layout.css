@@ -1,0 +1,13 @@
+.article-layout {
+	display: flex;
+	flex-direction: column;
+}
+
+.article-layout__sidebar {
+	order: 0;
+}
+
+.article-layout__content {
+	order: 1;
+}
+

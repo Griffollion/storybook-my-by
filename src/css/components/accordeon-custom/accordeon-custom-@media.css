@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+	.accordeon-custom__title {
+		font-size: 26px;
+	}
+	.accordeon-custom__item-title {
+		font-size: 18px;
+	}
+	.accordeon-custom__item-text {
+		font-size: 16px;
+	}
+}

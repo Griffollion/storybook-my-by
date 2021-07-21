@@ -1,0 +1,11 @@
+@media screen  and (min-width: 768px) {
+	.container-icon {
+		padding: 25px 15px 15px 65px;
+	}
+
+	.container-icon__icon img {
+		height: 40px;
+		min-width: 35px;
+		width: auto;
+	}
+}

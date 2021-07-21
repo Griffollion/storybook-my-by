@@ -1,0 +1,49 @@
+.page-top {
+	background: rgba(114, 200, 239, 0.27);
+}
+
+.page-top__wrapper {
+	position: relative;
+	padding-bottom: 140px;
+	padding-top: 10px;
+}
+
+.page-top__title {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.page-top__image {
+	max-width: 330px;
+}
+
+.page-top__title-inside {
+	padding: 10px 100px 10px 100px;
+}
+
+.page-top__title-left {
+	width: 70%;
+	padding: 40px 10px 0 100px;
+}
+
+.page-top__title-right {
+	width: 30%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	padding-right: 40px;
+}
+
+.page-top__text {
+	font-size: 18px;
+	line-height: 29px;
+	color: #0e1829;
+	margin-bottom: 0;
+}

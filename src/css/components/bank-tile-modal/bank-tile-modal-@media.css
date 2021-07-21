@@ -1,0 +1,143 @@
+@media screen and (min-width: 991px) {
+	.bank-tile-modal-wrapper {
+		padding: 30px;
+		min-height: unset;
+		min-width: unset;
+	}
+	.bank-tile-modal {
+		box-sizing: border-box;
+		width: 100%;
+		height: 100%;
+		max-width: 1180px;
+		max-height: 840px;
+
+		display: grid;
+		grid-gap: 0 35px;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas: "head map" "shot map" "info map" "info navs"
+	}
+
+	.bank-tile-modal__info-item-data [class^="icon-"] {
+		line-height: 22px;
+	}
+
+	.bank-tile-modal__head {
+		display: flex;
+		justify-content: space-between;
+		grid-area: head;
+	}
+
+	.bank-tile-modal__name {
+		order: 0;
+	}
+
+	.bank-tile-modal__logo {
+		order: 1;
+	}
+
+	.bank-tile-modal__shot-info {
+		grid-area: shot;
+	}
+
+	.bank-tile-modal__map {
+		grid-area: map;
+		height: 100%;
+	}
+
+	.bank-tile-modal__info {
+		grid-area: info;
+	}
+
+	.bank-tile-modal__navs {
+		grid-area: navs;
+	}
+
+	.bank-tile-modal__info-item-title {
+		pointer-events: none;
+	}
+
+	.bank-tile-modal__info-item-title:after {
+		display: none;
+	}
+
+	.bank-tile-modal__info-item-container {
+		display: block;
+	}
+
+	.bank-tile-modal__info-item {
+		border: none;
+		padding: 20px 0 0 25px;
+	}
+	.bank-tile-modal__info-item:first-child {
+		padding-top: 0;
+		border: none;
+	}
+
+	.bank-tile-modal__info-item.bank-tile-modal__info-item--branch-hours .bank-tile-modal__info-item-data {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.bank-tile-modal__info-item.bank-tile-modal__info-item--branch-hours.bank-tile-modal__info-item--branch-hours-full .bank-tile-modal__info-item-data {
+		grid-template-columns: 1fr;
+	}
+
+	.bank-tile-modal__info-item.bank-tile-modal__info-item--branch-hours .bank-tile-modal__info-item-data li {
+		justify-content: flex-start;
+	}
+
+	.bank-tile-modal__info-item.bank-tile-modal__info-item--branch-hours .bank-tile-modal__info-item-data li > *:first-child {
+		min-width: 70px;
+	}
+
+	.bank-tile-modal__info-item.bank-tile-modal__info-item--branch-hours .bank-tile-modal__info-item-data li > *:last-child {
+		margin-left: 5px;
+	}
+	.bank-tile-modal__info-item.bank-tile-modal__info-item--branch-hours.bank-tile-modal__info-item--branch-hours-full .bank-tile-modal__info-item-data li > *:first-child {
+		min-width: auto;
+	}
+
+	.bank-tile-modal__info-item.bank-tile-modal__info-item--branch-hours.bank-tile-modal__info-item--branch-hours-full .bank-tile-modal__info-item-data li > *:last-child {
+		margin-left: 0;
+	}
+
+	.bank-tile-modal__info-item.bank-tile-modal__info-item--branch-services .bank-tile-modal__info-item-data {
+		grid-template-columns: repeat(2, 1fr);
+
+	}
+
+	.bank-tile-modal__info-item.bank-tile-modal__info-item--atm-services .bank-tile-modal__info-item-data {
+		grid-template-columns: repeat(2, 1fr);
+
+	}
+
+	.bank-tile-modal__info-item.bank-tile-modal__info-item--advisor .bank-tile-modal__info-item-data {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.bank-tile-modal__info-item.bank-tile-modal__info-item--advisor .bank-tile-modal__info-item-data li {
+		justify-content: flex-start;
+	}
+
+	.bank-tile-modal__info-item.bank-tile-modal__info-item--advisor .bank-tile-modal__info-item-data li > *:last-child {
+		margin-left: 5px;
+	}
+
+	.bank-tile-modal__head {
+		padding: 0 0 15px 0;
+	}
+	.bank-tile-modal__shot-info {
+		padding: 0 0 15px 0;
+	}
+	.bank-tile-modal__navs {
+		padding: 15px 0 0 0;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.bank-tile-modal {
+		grid-gap: 0 80px;
+	}
+	.bank-tile-modal__info-item.bank-tile-modal__info-item--branch-hours .bank-tile-modal__info-item-data li > *:first-child {
+		min-width: 80px;
+	}
+}

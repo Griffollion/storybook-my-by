@@ -1,0 +1,401 @@
+/* Дефолтные стили инпута */
+input {
+	color: #263042;
+	background: #fff;
+	border: 1px solid #b4c6d2;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	height: 40px;
+	padding: 8px 20px;
+	box-sizing: border-box;
+	font-size: 16px;
+	width: 100%;
+	transition: box-shadow .25s, border-color .25s;
+	font-family: roboto-regular, Arial, Helvetica, sans-serif;
+}
+
+input:focus {
+	outline: none;
+	border-color: #3b6cbc;
+	-webkit-box-shadow: 2px 2px 5px rgba(0, 107, 181, 0.3), -2px -2px 5px rgba(0, 107, 181, 0.3);
+	box-shadow: 2px 2px 5px rgba(0, 107, 181, 0.3), -2px -2px 5px rgba(0, 107, 181, 0.3);
+}
+
+:focus::-webkit-input-placeholder {
+	color: transparent
+}
+
+:focus::-moz-placeholder {
+	color: transparent
+}
+
+:focus:-moz-placeholder {
+	color: transparent
+}
+
+:focus:-ms-input-placeholder {
+	color: transparent
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input::-webkit-input-placeholder {
+	font-size: 16px;
+	color: #9faab7;
+}
+
+input::-moz-placeholder {
+	font-size: 16px;
+	color: #9faab7;
+}
+
+input:-moz-placeholder {
+	font-size: 16px;
+	color: #9faab7;
+}
+
+input:-ms-input-placeholder {
+	font-size: 16px;
+	color: #9faab7;
+}
+
+label {
+	display: flex;
+}
+
+/* Инпуты в обертке для большей вариативности */
+
+.input {
+	color: #263042;
+	background: #fff;
+	border: 1px solid #b4c6d2;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	min-height: 40px;
+	box-sizing: border-box;
+	font-size: 16px;
+	width: 100%;
+	transition: border-color .25s;
+	position: relative;
+}
+
+.input [class^="icon-"] {
+	height: 40px;
+	color: #b4c6d2;
+}
+
+.input input {
+	width: 100%;
+	border: none;
+	box-shadow: none;
+	outline: none;
+	margin: 0;
+	padding: 8px 20px;
+	height: 100%;
+	transition: box-shadow .25s;
+}
+
+.input:focus-within {
+	border-color: #3b6cbc;
+}
+
+.input input:focus {
+	outline: none;
+	-webkit-box-shadow: 2px 2px 5px rgba(0, 107, 181, 0.3), -2px -2px 5px rgba(0, 107, 181, 0.3);
+	box-shadow: 2px 2px 5px rgba(0, 107, 181, 0.3), -2px -2px 5px rgba(0, 107, 181, 0.3);
+}
+
+/* input--middle */
+.input.input--middle input {
+	height: 48px;
+}
+
+.input.input--middle [class^="icon-"] {
+	height: 48px;
+}
+
+/* input--middle //End */
+
+/* input--big */
+.input.input--big input {
+	height: 58px;
+	font-size: 18px;
+}
+
+.input.input--big [class^="icon-"] {
+	height: 58px;
+}
+
+.input.input--big input::-webkit-input-placeholder {
+	font-size: 18px;
+}
+
+.input.input--big input::-moz-placeholder {
+	font-size: 18px;
+}
+
+.input.input--big input:-moz-placeholder {
+	font-size: 18px;
+}
+
+.input.input--big input:-ms-input-placeholder {
+	font-size: 18px;
+}
+
+/* input--big //End */
+
+/* input--no-borders */
+.input.input--no-borders,
+.input.input--no-borders input,
+.input.input--no-borders:focus-within {
+	border-color: transparent;
+	border-radius: 0;
+}
+
+/* input--no-borders //end */
+/* input--no-borders */
+.input.input--no-shadow input:focus {
+	box-shadow: none;
+}
+
+/* input--no-borders //end */
+
+/* input--shadow-orange */
+.input.input--shadow-orange input:focus {
+	outline: none;
+	-webkit-box-shadow: 2px 2px 5px rgba(247, 143, 30, 0.3), -2px -2px 5px rgba(247, 143, 30, 0.3);
+	box-shadow: 2px 2px 5px rgba(247, 143, 30, 0.3), -2px -2px 5px rgba(247, 143, 30, 0.3);
+}
+
+.input.input--shadow-orange:focus-within {
+	border-color: #f78f1e;
+}
+
+/* input--shadow-orange //end */
+
+/* input--autocomplete */
+.input.input--autocomplete .autoCompleteList {
+	position: absolute;
+	top: calc(100% + 1px);
+	left: -1px;
+	width: calc(100% + 2px);
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	-webkit-box-shadow: 2px 2px 5px rgba(0, 107, 181, 0.3), -2px 0 5px rgba(0, 107, 181, 0.3);
+	box-shadow: 2px 2px 5px rgba(0, 107, 181, 0.3), -2px 0 5px rgba(0, 107, 181, 0.3);
+	max-height: 300px;
+	overflow-y: auto;
+	z-index: 6;
+}
+
+.input.input--autocomplete.input--shadow-orange .autoCompleteList {
+	-webkit-box-shadow: 2px 2px 5px rgba(247, 143, 30, 0.3), -2px 0 5px rgba(247, 143, 30, 0.3);
+	box-shadow: 2px 2px 5px rgba(247, 143, 30, 0.3), -2px 0 5px rgba(247, 143, 30, 0.3);
+}
+
+.input.input--autocomplete .autoCompleteList li {
+	padding: 8px 20px;
+	margin: 0;
+	transition: background-color .25s, color .25s;
+	color: #6b737d;
+}
+
+.input.input--autocomplete .autoCompleteList li:hover,
+.input.input--autocomplete .autoCompleteList li.active {
+	background-color: #ebf6fb;
+	color: #0e1829;
+}
+
+.input.input--autocomplete .autoCompleteList li > a,
+.input.input--autocomplete .autoCompleteList li > span,
+.input.input--autocomplete .autoCompleteList li > div {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	color: #6b737d;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.input.input--autocomplete .autoCompleteList li:hover > a,
+.input.input--autocomplete .autoCompleteList li:hover > span,
+.input.input--autocomplete .autoCompleteList li:hover > div,
+.input.input--autocomplete .autoCompleteList li.active > a,
+.input.input--autocomplete .autoCompleteList li.active > span,
+.input.input--autocomplete .autoCompleteList li.active > div {
+	color: #0e1829;
+}
+
+.input.input--autocomplete:focus-within {
+	border-radius: 3px 3px 0 0;
+}
+
+.input.input--autocomplete:focus-within input {
+	border-radius: 3px 3px 0 0;
+}
+
+/* input--autocomplete //end */
+
+/* input--autocomplete-list-relative */
+.input.input--autocomplete-list-relative .autoCompleteList {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	-webkit-box-shadow: 2px 2px 5px rgba(0, 107, 181, 0.3), -2px 0 5px rgba(0, 107, 181, 0.3);
+	box-shadow: 2px 2px 5px rgba(0, 107, 181, 0.3), -2px 0 5px rgba(0, 107, 181, 0.3);
+	max-height: 300px;
+	overflow-y: auto;
+	z-index: 6;
+}
+
+.input.input--autocomplete-list-relative.input--shadow-orange .autoCompleteList {
+	-webkit-box-shadow: 2px 2px 5px rgba(247, 143, 30, 0.3), -2px 0 5px rgba(247, 143, 30, 0.3);
+	box-shadow: 2px 2px 5px rgba(247, 143, 30, 0.3), -2px 0 5px rgba(247, 143, 30, 0.3);
+}
+
+.input.input--autocomplete-list-relative .autoCompleteList li {
+	padding: 8px 20px;
+	margin: 0;
+	transition: background-color .25s, color .25s;
+	color: #6b737d;
+}
+
+.input.input--autocomplete-list-relative .autoCompleteList li:hover,
+.input.input--autocomplete-list-relative .autoCompleteList li.active {
+	background-color: #ebf6fb;
+	color: #0e1829;
+}
+
+.input.input--autocomplete-list-relative .autoCompleteList li a {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	color: #6b737d;
+}
+
+.input.input--autocomplete-list-relative .autoCompleteList li:hover a,
+.input.input--autocomplete-list-relative .autoCompleteList li.active a {
+	color: #0e1829;
+}
+
+.input.input--autocomplete-list-relative {
+	border: none;
+	border-radius: 0;
+}
+
+.input.input--autocomplete-list-relative input {
+	border: 1px solid #b4c6d2;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	transition: border-color .25s;
+}
+
+.input.input--autocomplete-list-relative:focus-within {
+	border-color: transparent;
+}
+
+.input.input--autocomplete-list-relative.input.input--shadow-orange:focus-within {
+	border-color: transparent;
+}
+
+.input.input--autocomplete-list-relative.input.input--shadow-orange input:focus {
+	-webkit-box-shadow: 2px 2px 5px rgba(247, 143, 30, 0.3), -2px -2px 5px rgba(247, 143, 30, 0.3);
+	box-shadow: 2px 2px 5px rgba(247, 143, 30, 0.3), -2px -2px 5px rgba(247, 143, 30, 0.3);
+	border-color: #f78f1e;
+}
+
+.input.input--autocomplete-list-relative input:focus {
+	border-color: #3b6cbc;
+}
+
+/* input--autocomplete-list-relative //end */
+
+/* input--icon-right */
+.input.input--icon-right input {
+	padding-right: 40px;
+}
+
+.input.input--icon-right [class^="icon-"], .input.input--icon-right [class*=" icon-"] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	font-size: 20px;
+}
+
+/* input--icon-right //end */
+
+/* input--icon-left */
+.input.input--icon-left input {
+	padding-left: 40px;
+}
+
+.input.input--icon-left [class^="icon-"], .input.input--icon-left [class*=" icon-"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 40px;
+	background-color: #fff;
+	font-size: 20px;
+}
+
+/* input--icon-left //end */
+
+/* input--icon-blue */
+.input.input--icon-blue [class^="icon-"] {
+	color: #14509c;
+}
+
+/* input--icon-blue //end */
+
+/* input--icon-link */
+.input.input--icon-link [class^="icon-"] {
+	color: #14509c;
+	transition: color .3s;
+}
+
+.input.input--icon-link [class^="icon-"]:hover {
+	color: #f78f1e;
+}
+
+/* input--icon-link //end */
+
+/* input--icon-dark-blue */
+.input.input--icon-dark-blue [class^="icon-"] {
+	color: #b4c6d2;
+}
+
+/* input--icon-dark-blue //end */
+
+/* Инпуты в обертке для большей вариативности //end */

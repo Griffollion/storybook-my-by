@@ -1,0 +1,50 @@
+.popular-authors__item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.popular-authors__item:first-child {
+	padding-top: 0;
+}
+
+.popular-authors__item:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.popular-authors img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	border: 1px solid #ebebeb;
+}
+
+.popular-authors__left {
+	flex-shrink: 0;
+	margin-right: 15px;
+}
+
+.popular-authors__right {
+	-webkit-box-flex: 2;
+	flex-grow: 2;
+}
+
+.popular-authors__name {
+	font-size: 14px;
+	font-family: roboto-bold;
+}
+
+.popular-authors__subtext {
+	font-size: 14px;
+	margin-top: 5px;
+	color: #6b737d;
+}

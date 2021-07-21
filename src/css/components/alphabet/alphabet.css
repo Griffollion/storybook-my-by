@@ -1,0 +1,62 @@
+.alphabet {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 23px);
+	grid-gap: 10px 7px;
+}
+
+/* alphabet--flex */
+.alphabet.alphabet--flex {
+	display: flex;
+	flex-wrap: wrap;
+	grid-gap: unset;
+
+}
+
+.alphabet.alphabet--flex .alphabet-link-js {
+	padding: 0 5px 0 0;
+	margin: 0 5px 10px 0;
+}
+
+.alphabet.alphabet--flex .alphabet-link-js:first-child {
+	padding-left: 0;
+}
+
+/* alphabet--flex //end */
+
+.alphabet__item.active {
+	color: #e86809;
+}
+
+.alphabet__item.disabled {
+	color: #ccc;
+	pointer-events: none;
+}
+
+/* TODO костыль для использования с виджетом алфавита аниксмедии. Удалить когда Саша сделает рефактор*/
+.alphabet .alphabet-link-js {
+	cursor: pointer;
+	color: #14509c;
+	background: transparent;
+	text-decoration: none;
+	transition: color .3s;
+	-webkit-transition: color .3s;
+	-moz-transition: color .3s;
+	-o-transition: color .3s;
+	pointer-events: auto;
+}
+
+.alphabet .alphabet-link-js:hover {
+	color: #e86809;
+}
+
+.alphabet .alphabet-link-js.active {
+	color: #e86809;
+	pointer-events: none;
+}
+
+.alphabet > span {
+	color: #ccc;
+	pointer-events: none;
+}
+
+/* TODO костыль для использования с виджетом алфавита аниксмедии. Удалить когда Саша сделает рефактор //end */

@@ -1,0 +1,15 @@
+.related-content__title {
+	margin-bottom: 15px;
+}
+
+.related-content__title h1,
+.related-content__title h2,
+.related-content__title h3 {
+	margin: 0;
+	padding: 0;
+}
+
+.related-content__list li {
+	font-size: 14px;
+	font-family: roboto-bold;
+}

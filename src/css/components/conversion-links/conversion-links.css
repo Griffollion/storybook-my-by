@@ -1,0 +1,44 @@
+.conversion-links__inside {
+	border-top: 1px solid #ebebeb;
+}
+
+.conversion-links__item {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.conversion-links__link {
+	box-sizing: border-box;
+	width: calc(100% / 3);
+	padding: 20px 0;
+	font-size: 18px;
+}
+
+.conversion-links__item--mr {
+	margin-right: 0;
+}
+
+.conversion-links__text-bold {
+	font-family: roboto-bold;
+	line-height: 19px;
+}
+
+.conversion-links__blue-light {
+	color: #3b6cbc;
+	transition: color 0.25s;
+	-webkit-transition: color 0.25s;
+	-moz-transition: color 0.25s;
+	-ms-transition: color 0.25s;
+	-o-transition: color 0.25s;
+}
+
+.conversion-links__link:hover .conversion-links__blue-light {
+	color: #e86809;
+}
+
+.conversion-links__icon {
+	padding: 0 5px;
+}

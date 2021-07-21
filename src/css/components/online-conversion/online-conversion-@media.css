@@ -1,0 +1,81 @@
+@media screen and (max-width: 1200px) {
+	.online-conversion__cell--first {
+		padding-left: 0;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+
+	.online-conversion__cell {
+		width: calc(100% / 6);
+	}
+
+	.online-conversion__title {
+		width: calc(100% / 6);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.online-conversion__inside .online-conversion__row:first-child {
+		display: none;
+	}
+
+	.online-conversion__cell {
+		display: none;
+		width: calc(100% / 2);
+	}
+
+	.online-conversion__row .online-conversion__cell:nth-child(2) {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+		padding-right: 25px;
+	}
+
+	.online-conversion__row .online-conversion__cell--first {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		padding-left: 25px;
+	}
+
+	.online-conversion__row {
+		min-height: 45px;
+	}
+
+	.online-conversion__inside {
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+
+	.online-conversion__btn {
+		display: none;
+	}
+
+	.online-conversion__info-text {
+		font-size: 12px;
+		padding-bottom: 20px;
+	}
+
+	.online-conversion__info {
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+		width: 100%;
+	}
+
+	.online-conversion__bottom {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.online-conversion__select {
+		display: block;
+	}
+}

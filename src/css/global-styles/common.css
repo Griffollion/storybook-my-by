@@ -1,0 +1,100 @@
+html, body {
+	height: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+	font-family: roboto-regular, Helvetica, Arial, sans-serif;
+}
+
+li:focus {
+	outline: none;
+}
+
+button:focus, button:hover {
+	outline: none;
+	cursor: pointer;
+}
+
+input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+input:focus:-moz-placeholder {
+	color: transparent;
+}
+
+input:focus::-moz-placeholder {
+	color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+	color: transparent;
+}
+
+input:focus::placeholder {
+	color: transparent;
+}
+
+*:not(.scroll-default)::-webkit-scrollbar {
+	width: 5px;
+	background: #ebebeb;
+	height: 5px;
+}
+
+*:not(.scroll-default)::-webkit-scrollbar-thumb {
+	background: #999;
+}
+
+.accent {
+	font-family: roboto-bold;
+}
+
+.overlay {
+	pointer-events: none;
+	position: fixed;
+	z-index: 9;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	background-color: rgba(89, 111, 121, .4);
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+
+.overlay.active {
+	pointer-events: auto;
+	opacity: 1;
+}
+
+[data-js="toggle-item"] {
+	cursor: pointer;
+}
+
+/* по дефолту икоки очень большие. поэтому уменьшаем их исходный шрифт */
+[class^="icon-"], [class*=" icon-"] {
+	font-size: 0.7em;
+}
+
+/*Я хз что это и где используется*/
+.dropdown-menu.active {
+	opacity: 1;
+	visibility: visible;
+}
+
+figure p {
+	margin-bottom: 0;
+}
+
+form {
+	width: 100%;
+}
+
+.d-fl {
+	display: flex;
+}
+
+

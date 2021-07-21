@@ -1,0 +1,35 @@
+.close {
+	cursor: pointer;
+	position: relative;
+	width: 24px;
+	height: 24px;
+}
+
+.close__item {
+	display: block;
+	position: absolute;
+	top: 11px;
+	right: 1px;
+	height: 2px;
+	width: 22px;
+	background: #b4c6d2;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+
+.close__item--left {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+.close__item--right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+}

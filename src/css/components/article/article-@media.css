@@ -1,0 +1,7 @@
+@media screen and (min-width: 768px) {
+	.article__content ul,
+	.article__content ol {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}

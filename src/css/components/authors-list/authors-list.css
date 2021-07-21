@@ -1,0 +1,42 @@
+.authors-list {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 20px 0;
+}
+
+.authors-list__item {
+	display: grid;
+	grid-template-areas: "title title" "description description" "publications publications";
+	grid-row-gap: 10px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.authors-list__item-description {
+	grid-area: description;
+	line-height: 1.4;
+}
+
+.authors-list__item-description img {
+	border: 1px solid #b4c6d2;
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	border-radius: 50%;
+	float: left;
+	shape-outside: circle(50%);
+	margin-right: 15px;
+}
+
+.authors-list__item-title {
+	grid-area: title;
+	font-size: 18px;
+	font-family: roboto-bold, Arial, Helvetica, sans-serif;
+	align-items: center;
+}
+
+.authors-list__item-subtext {
+	font-size: 12px;
+	color: #6b737d;
+	grid-area: publications;
+}
