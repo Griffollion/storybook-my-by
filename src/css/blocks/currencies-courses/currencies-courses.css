@@ -1,0 +1,97 @@
+.currencies-courses {
+	width: 100%;
+}
+
+.currencies-courses thead {
+	border-bottom: 1px solid #ebebeb;
+}
+
+.currencies-courses th,
+.currencies-courses td {
+	padding-right: 15px;
+	text-align: left;
+}
+
+.currencies-courses th:first-child,
+.currencies-courses td:first-child {
+	padding-left: 10px;
+}
+
+.currencies-courses th:last-child,
+.currencies-courses td:last-child {
+	padding-right: 10px;
+}
+
+.currencies-courses th {
+	background-color: #f1fbff;
+	color: #6b737d;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.currencies-courses td {
+	font-size: 16px;
+	border-bottom: 1px solid #ebebeb;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #fff;
+}
+
+.currencies-courses td:first-child a {
+	display: block;
+	width: 120px;
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left: 20px;
+}
+
+.currencies-courses td:first-child .bank-logo {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+
+.currencies-courses .accent {
+	color: #f78f1e;
+	font-family: roboto-bold, Arial, Helvetica, sans-serif;
+}
+
+.currencies-courses .sort {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	transition: color .25s;
+}
+
+.currencies-courses .sort:hover,
+.currencies-courses .sort:hover:after{
+	color: #f78f1e;
+}
+
+.currencies-courses .sort:after {
+	font-family: MyFin;
+	margin-left: 5px;
+	color: #b4c6d2;
+	font-size: 12px;
+}
+
+.currencies-courses .sort:after,
+.currencies-courses .sort.desc:after {
+	content: "\e934";
+}
+
+.currencies-courses .sort.asc:after {
+	content: "\e933";
+}
+
+.currencies-courses .sort.desc,
+.currencies-courses .sort.asc {
+	font-family: roboto-bold, Arial, Helvetica, sans-serif;
+	color: #f78f1e;
+}

@@ -631,10 +631,13 @@
 	color: #999;
 }
 
+.light-gray {
+	color: #b7bec7;
+}
+
 .accent {
 	font-family: roboto-bold;
 }
-
 
 @media screen and (max-width: 767px) {
 	.mobile-hidden {

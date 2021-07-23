@@ -22,5 +22,9 @@
   {
     "name": "dark-gray",
     "code": "#6b737d"
+  },
+  {
+    "name": "light-gray",
+    "code": "#b7bec7"
   }
 ]

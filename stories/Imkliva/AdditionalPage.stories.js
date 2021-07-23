@@ -9,7 +9,7 @@ const TOP_BG_1 = 'main-bg.png'
 const TOP_BG_2 = 'wave.svg'
 
 export default {
-  title: 'Imkliva',
+  title: 'Imkliva/Additional Page',
   parameters: {
     notes: `Зависимости: <b>imkliva-alter.css; imkliva-alter-@media.css;</b> \n
     На проекте расположены в ассете <b>ImklivaAlterAsset.php</b>`,
