@@ -1,0 +1,193 @@
+.minimal-tabs {
+	margin: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+	overflow-x: auto;
+}
+
+.minimal-tabs--links-small-paddings > .minimal-tabs__item > a,
+.minimal-tabs--links-small-paddings > .minimal-tabs__item > .minimal-tabs__btn {
+	padding: 10px 0;
+}
+
+.minimal-tabs--links-no-paddings > .minimal-tabs__item > a,
+.minimal-tabs--links-no-paddings > .minimal-tabs__item > .minimal-tabs__btn {
+	padding: 0;
+}
+
+.minimal-tabs--links-no-paddings .minimal-tabs__hidden-list {
+	top: calc(100% + 10px);
+}
+
+.minimal-tabs__item {
+	white-space: nowrap;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.minimal-tabs__item:not(:last-child) {
+	margin-right: 30px;
+}
+
+.minimal-tabs__item:last-child {
+	padding-right: 20px;
+}
+
+.minimal-tabs__item--more > .minimal-tabs__btn {
+	text-transform: none;
+}
+
+.minimal-tabs__btn {
+	-webkit-transition: color .2s;
+	-o-transition: color .2s;
+	transition: color .2s;
+	padding: 15px 0;
+	border: none;
+	background-color: transparent;
+	color: #14509c;
+	outline: none;
+	display: flex;
+	cursor: pointer;
+}
+
+.minimal-tabs__btn:focus,
+.minimal-tabs__btn:hover {
+	color: #e86809;
+}
+
+span.minimal-tabs__btn {
+	display: inline-block;
+}
+
+.minimal-tabs__item.active .minimal-tabs__btn {
+	border-bottom: 3px solid #f78f1e;
+	color: #112238;
+}
+
+/* minimal-tabs__item--more */
+.minimal-tabs__item--more {
+	position: relative;
+	cursor: pointer;
+}
+
+.minimal-tabs__item--more > .minimal-tabs__btn:after {
+	-webkit-transition: -webkit-transform .25s ease;
+	transition: -webkit-transform .25s ease;
+	-o-transition: transform .25s ease;
+	transition: transform .25s ease, -webkit-transform .25s ease;
+	content: "\e90d";
+	font-family: MyFIn;
+	margin-left: 5px;
+	font-size: 10px;
+	display: inline-block;
+}
+
+.minimal-tabs__item--more.opened > .minimal-tabs__btn:after {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+/* minimal-tabs__item--more //end */
+
+.minimal-tabs__hidden-list {
+	-webkit-transition: opacity .25s ease, -webkit-transform .25s ease;
+	-o-transition: transform .25s ease, opacity .25s ease;
+	transition: transform .25s ease, opacity .25s ease, -webkit-transform .25s ease;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	background: #fff;
+	padding: 5px 15px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+	box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+	z-index: 10;
+	opacity: 0;
+	pointer-events: none;
+	-webkit-transform: translateY(20px);
+	-ms-transform: translateY(20px);
+	transform: translateY(20px);
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+.minimal-tabs__hidden-list::-webkit-scrollbar {
+	width: 8px;
+	height: 6px;
+}
+
+.minimal-tabs__hidden-list::-webkit-scrollbar-thumb {
+	height: 50px;
+	background-color: #e8ebee;
+	border-radius: 20px;
+}
+
+.minimal-tabs__hidden-list.opened {
+	opacity: 1;
+	pointer-events: auto;
+	-webkit-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px);
+}
+
+.minimal-tabs__hidden-list .minimal-tabs__item {
+	margin-right: 0;
+}
+
+.minimal-tabs__hidden-list .minimal-tabs__btn {
+	padding: 10px 0;
+	line-height: 1;
+}
+
+.minimal-tabs__hidden-list .minimal-tabs__item.active .minimal-tabs__btn {
+	border: none;
+}
+
+
+
+.minimal-tabs--fs-14 .minimal-tabs__item {
+	font-size: 14px;
+}
+
+/* minimal-tabs--fill */
+.minimal-tabs--fill .minimal-tabs__item {
+	margin-right: 0;
+}
+
+.minimal-tabs--fill .minimal-tabs__item span,
+.minimal-tabs--fill .minimal-tabs__item a {
+	transition: background-color .25s;
+}
+
+.minimal-tabs--fill > .minimal-tabs__item > a:hover {
+	background-color: #f78f1e;
+	color: #fff;
+	opacity: .7;
+}
+
+.minimal-tabs--fill > .minimal-tabs__item > span,
+.minimal-tabs--fill > .minimal-tabs__item > a {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.minimal-tabs--fill .minimal-tabs__item.active span {
+	border-bottom: none;
+	background-color: #f78f1e;
+	color: #fff;
+}
+
+/* minimal-tabs--fill //end */
+
+/* minimal-tabs--normalcase */
+.minimal-tabs--normalcase .minimal-tabs__item {
+	text-transform: none;
+}
+/* minimal-tabs--normalcase //end */
+
+.ovf-hid {
+	overflow: hidden;
+}

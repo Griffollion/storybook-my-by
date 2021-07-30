@@ -1,7 +1,5 @@
-import '../../src/css/blocks/currencies-courses/currencies-courses.css'
-import '../../src/css/blocks/currencies-courses/currencies-courses-@media.css'
-import '../../src/css/blocks/currencies-courses/currencies-courses--online.css'
-import '../../src/css/blocks/currencies-courses/currencies-courses--online-@media.css'
+import '../../src/css/blocks/currencies-courses-online/currencies-courses-online.css'
+import '../../src/css/blocks/currencies-courses-online/currencies-courses-online-@media.css'
 import '../../src/css/components/bank-logo/bank-logo.css'
 import '../../src/css/components/bank-logo/bank-logo-@media.css'
 //Tooltipster
@@ -54,12 +52,12 @@ const renderTableData = (items) => {
           </td>
           <td>
               ${item.isBestBuyCourse
-            ? `<span class="accent tooltip-click" title="Лучший курс">${item.buyRate}</span>`
+            ? `<span class="accent orange tooltip-click" title="Лучший курс">${item.buyRate}</span>`
             : `${item.buyRate}`}
           </td>
           <td>
               ${item.isBestSaleCourse
-            ? `<span class="accent tooltip-click" title="Лучший курс">${item.saleRate}</span>`
+            ? `<span class="accent orange tooltip-click" title="Лучший курс">${item.saleRate}</span>`
             : `${item.saleRate}`}
           </td>
           <td>
@@ -75,10 +73,11 @@ const renderTableData = (items) => {
 }
 
 export default {
-  title: 'Blocks/Курсы валют/Курсы валют онлайн',
+  title: 'Blocks/Курсы валют/Курсы валют онлайн/Мобайл',
   parameters: {
     notes: `Зависимости: <b>currencies-courses-online.css; currencies-courses-online-@media.css; bank-logo.css; bank-logo-@media.css;</b> \n
     На проекте расположены в ассете <b>CurrenciesCoursesOnlineAsset.php</b>`,
+    layout: 'fullscreen',
   },
   args: {
     headers: [{title: 'Банк', isSort: true}, {title: 'Покупает', isSort: true, currency: 'USD'}, {title: 'Продает', isSort: true, currency: 'USD'},{title: ''}],
@@ -125,7 +124,7 @@ const Template = ({ data, ...args }) => {
   })
   return (
     `
-      <table class="currencies-courses currencies-courses--online">
+      <table class="currencies-courses-online">
         <thead>
             <tr>
                ${renderTableHeaders(args.headers)}

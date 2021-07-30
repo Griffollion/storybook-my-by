@@ -1,6 +1,6 @@
 [
   {
-    "name": "darck-grey",
+    "name": "darck-greys",
     "code": "#999"
   },
   {
@@ -26,5 +26,13 @@
   {
     "name": "light-gray",
     "code": "#b7bec7"
+  },
+  {
+    "name": "main-black",
+    "code": "#0E1829"
+  },
+  {
+    "name": "orange",
+    "code": "#f78f1e"
   }
 ]

@@ -1,4 +1,4 @@
-(function () {
+export default (function () {
   var root = '[data-simple-converter="root"]'
   var closeBtn = '[data-simple-converter="close-btn"]'
   var targetToShow = 'data-simple-converter-target'
@@ -11,4 +11,4 @@
   $(document).on('click', closeBtn, function () {
     $(this).closest(root).removeClass('active')
   })
-})()
+})

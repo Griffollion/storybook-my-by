@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+	.currencies-info {
+		padding: 20px 30px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.currencies-info__title {
+		font-size: 20px;
+		margin-bottom: 0;
+	}
+
+	.currencies-info__item-cell {
+		margin-bottom: 0;
+	}
+}

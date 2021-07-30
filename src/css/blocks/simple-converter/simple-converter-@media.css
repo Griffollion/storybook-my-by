@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+	.simple-converter {
+		padding: 20px;
+	}
+
+	.simple-converter__head h1,
+	.simple-converter__head h2,
+	.simple-converter__head h3,
+	.simple-converter__head h4 {
+		font-size: 20px;
+	}
+
+	.simple-converter__head {
+		font-size: 20px;
+	}
+}

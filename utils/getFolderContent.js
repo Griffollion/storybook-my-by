@@ -1,21 +1,18 @@
-const svgFolders = ["./src/img/icons/", "./src/img/icons-banks/small"];
-const jsonFiles = ["./json/svgIconNames.json","./json/svgIconsBanksSmall.json"];
+const svgFolders = ["./src/img/icons/", "./src/img/icons-banks/small/", "./src/img/icons-banks/big/"];
+const jsonFiles = ["./json/svgIconNames.json", "./json/svgIconsBanksSmall.json", "./json/svgIconsBanksBig.json"];
 const fs = require("fs");
 
-var promise = new Promise((resolve, reject) => {
-  svgFolders.forEach(svgFolder => {
+var promises = svgFolders.map(svgFolder => {
+  return new Promise((resolve, reject) => {
     fs.readdir(svgFolder, (err, files) => {
-      var fileNames = [];
-
+      const fileNames = [];
       files.forEach((file) => {
         fileNames.push(file);
       });
-
       resolve(fileNames);
     });
-  })
-
-});
+  });
+})
 
 function writeIntoFile(fileName, data) {
   let names = {};
@@ -32,11 +29,7 @@ function writeIntoFile(fileName, data) {
   });
 }
 
-async function updateFile() {
-  let fileNames = await promise;
-  jsonFiles.forEach(jsonFile => {
-    writeIntoFile(jsonFile, fileNames)
-  })
-}
+promises.forEach((promise, i) => {
+  promise.then(result => writeIntoFile(jsonFiles[i], result))
+})
 
-updateFile();

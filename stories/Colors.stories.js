@@ -2,8 +2,9 @@ import colors from '../json/colors.json'
 import backgrounds from '../json/backgrounds.json'
 import '../src/storybook/css/colors.css'
 
+
 export default {
-  title: 'Colors/Colors',
+  title: 'Цвета сайта/Colors',
   parameters: {
     notes: `Зависимости: <b>global.css;</b> \n
     На проекте расположены в глобальном ассете <b>GlobalStylesAsset.php</b>`,
