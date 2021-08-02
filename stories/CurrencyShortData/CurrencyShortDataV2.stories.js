@@ -56,7 +56,7 @@ export default {
   title: 'Components/Currency short data',
   parameters: {
     notes: `Зависимости: <b>currency-short-data.css; currency-short-data-@media.css;</b> \n
-    На проекте расположены в ассете <b>CurrencyShortData.php</b>`,
+    На проекте расположены в ассете <b>CurrencyShortDataAsset.php</b>`,
   },
   args: {
     title: 'Курсы валют НБ РБ',

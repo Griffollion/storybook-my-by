@@ -2,6 +2,21 @@
 	width: 100%;
 }
 
+/* currencies-courses-online--bordered  */
+.currencies-courses-online--bordered {
+	border: 1px solid #ebebeb;
+	border-radius: 3px;
+	border-collapse: unset;
+	overflow: hidden;
+}
+
+.currencies-courses-online--bordered tbody tr:last-child td {
+	border-bottom: none;
+}
+
+
+/* currencies-courses-online--bordered //end */
+
 .currencies-courses-online thead {
 	border-bottom: 1px solid #ebebeb;
 }
@@ -62,8 +77,6 @@
 	transform: translateY(-50%);
 }
 
-
-
 .currencies-courses-online .accent {
 	font-family: roboto-bold, Arial, Helvetica, sans-serif;
 }
@@ -76,7 +89,7 @@
 }
 
 .currencies-courses-online .sort:hover,
-.currencies-courses-online .sort:hover:after{
+.currencies-courses-online .sort:hover:after {
 	color: #f78f1e;
 }
 

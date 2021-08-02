@@ -5,7 +5,6 @@ import { renderImg } from '../utils/helpers'
 
 const IMG_FOLDER_PATH = '/src/img/icons/'
 const ICONS = icons.files.map(el => el.fileName)
-console.log(ICONS)
 
 export default {
   title: 'Информирующие блоки/Info img block',
@@ -22,7 +21,7 @@ export default {
     image: {
       options: ICONS,
       control: { type: 'select' },
-      defaultValue : ICONS[0] ,
+      defaultValue : ICONS[5] ,
     },
   },
 }

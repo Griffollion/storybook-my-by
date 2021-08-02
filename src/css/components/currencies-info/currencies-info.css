@@ -39,10 +39,12 @@
 	font-size: 18px;
 	font-family: roboto-bold, Arial, Helvetica, sans-serif;
 	margin-right: 10px;
+	line-height: 1;
 }
 
 .currencies-info__item-data {
 	font-size: 18px;
 	color: #0e1829;
 	margin-right: 5px;
+	line-height: 1;
 }

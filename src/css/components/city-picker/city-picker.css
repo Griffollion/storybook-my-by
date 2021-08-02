@@ -1,0 +1,26 @@
+.city-picker {
+	display: inline-flex;
+	cursor: pointer;
+	align-items: center;
+}
+
+.city-picker__icon {
+	color: #b4c6d2;
+	margin-right: 5px;
+	font-size: 14px;
+}
+
+.city-picker__text {
+
+	border-bottom: 1px dashed #14509c;
+	color: #14509c;
+	transition: color .25s, border-color .25s;
+	font-size: 14px;
+}
+
+@media screen and (hover: hover) {
+	.city-picker:hover .city-picker__text {
+		color: #e86809;
+		border-color: #e86809;
+	}
+}

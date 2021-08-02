@@ -4,6 +4,7 @@
 	border: 1px solid #ebebeb;
 	box-sizing: border-box;
 	border-radius: 3px;
+	height: 100%;
 }
 
 .currency-short-data__title {

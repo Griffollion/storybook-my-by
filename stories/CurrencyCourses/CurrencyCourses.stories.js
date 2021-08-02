@@ -43,7 +43,7 @@ const renderPhones = (phones) => {
   return `<div class="currencies-courses__phones">
             <i class="ic-phone currencies-courses__phone-btn" data-currencies-courses="show-phones"></i>
             <div class="currencies-courses__phones-container">
-                <a href="#">+ 375 29 220-22-22</a>
+                <a href="tel:+375292202222">+ 375 29 220-22-22</a>
             </div>
         </div>`
 }
@@ -119,7 +119,7 @@ const renderTableData = (items) => {
               <div class="currencies-courses__phones">
               <i class="ic-phone currencies-courses__phone-btn" data-currencies-courses="show-phones"></i>
               <div class="currencies-courses__phones-container">
-                  <a href="#">+ 375 29 220-22-22</a>
+                  <a href="+375292202222">+ 375 29 220-22-22</a>
               </div>
             </div>
           </td>

@@ -122,6 +122,17 @@ function hideCurrencyConverter () {
   }
 }
 
+function hidePhones () {
+  const container = $('.currencies-courses__phones-container')
+  const btn = $('.currencies-courses__phone-btn')
+  if (!btn.is(event.target) &&
+    btn.has(event.target).length === 0 &&
+    !container.is(event.target) &&
+    !container.is(event.target) && container.has(event.target).length === 0) {
+    container.removeClass('active')
+  }
+}
+
 function hideAllConverters () {
   const converters = document.querySelectorAll('.floating-currency-converter')
   converters.forEach(converter => {
@@ -175,6 +186,9 @@ $(document).ready(function () {
   showCurrencyConverter()
   toggleBranchesDisplay()
   showPhones()
-  $(document).on('click', hideCurrencyConverter)
+  $(document).on('click', () => {
+    hidePhones ()
+    hideCurrencyConverter()
+  })
 })
 
