@@ -60,3 +60,24 @@
 .currency-short-data__table thead th:last-child {
 	padding-right: 0;
 }
+
+.currency-short-data__redirect {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.currency-short-data__redirect-links {
+	margin-right: 10px;
+}
+
+.currency-short-data__redirect-links a {
+	margin-right: 15px;
+}
+.currency-short-data__redirect-links a:last-child {
+	margin-right: 0;
+}
+
+.currency-short-data__redirect-menu {
+	position: relative;
+}

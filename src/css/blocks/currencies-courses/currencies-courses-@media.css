@@ -16,6 +16,10 @@
 		position: relative;
 	}
 
+	.currencies-courses.currencies-courses--mob .currencies-courses__row-main td:first-child {
+		padding-left: 20px;
+	}
+
 	.currencies-courses .currencies-courses__row-main td:first-child:before {
 		content: "\e90d";
 		font-family: Myfin;
@@ -53,11 +57,11 @@
 
 
 	/*	*/
-		.floating-currency-converter__cell {
-			width: 145px;
-			margin-right: 40px;
-			position: relative;
-		}
+	.floating-currency-converter__cell {
+		width: 145px;
+		margin-right: 40px;
+		position: relative;
+	}
 	/*	*/
 
 	.currencies-courses__search-row {

@@ -106,6 +106,7 @@ const renderTableData = (items) => {
                 </span>
                 ${item.name_not_link}
               </a>
+              <div class="fs-14 light-gray"><i class="ic-arrow_down fs-10 mr-5"></i>5 отделений</div>
           </td>
           
           ${renderCourse(item, bestCourses)}
@@ -184,7 +185,7 @@ const Template = ({ data, ...args }) => {
 
   return (
     `
-      <table class="currencies-courses ${args.modificators}">
+      <table class="currencies-courses currencies-courses--mob ${args.modificators}">
       <thead>
           <tr>
             <th>

@@ -15,6 +15,7 @@ export default function () {
     {threshold: [1]}
   );
 
-
-  observer.observe(document.querySelector(root))
+  if($(root).length > 0) {
+    observer.observe(document.querySelector(root))
+  }
 }
