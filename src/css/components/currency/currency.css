@@ -21,3 +21,14 @@
 	position: relative;
 	top: -.3em;
 }
+
+/* currency--m */
+.currency.currency--m {
+	font-size: 16px;
+}
+
+.currency.currency--m img {
+	width: 20px;
+	height: 20px;
+}
+/* currency--m //end */

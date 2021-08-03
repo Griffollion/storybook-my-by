@@ -80,7 +80,7 @@ const Template = ({ data, ...args }) => {
   return (`
     <div class="currency-short-data">
         <div class="currency-short-data__title">
-            <h2>${args.title}</h2>
+            ${args.title}
         </div>
         <div class="currency-short-data__table">
             <table>

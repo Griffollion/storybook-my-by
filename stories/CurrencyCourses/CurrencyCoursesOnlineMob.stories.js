@@ -6,6 +6,7 @@ import '../../src/css/components/bank-logo/bank-logo-@media.css'
 import '../../src/css/libs/tooltipster/tooltipster.bundle.min.css'
 import '../../src/css/components/tooltipster-custom/tooltipster-custom.css'
 import '../../src/js/libs/tooltipster/tooltipster.bundle.min.js'
+import { DeskBordered } from './CurrencyCoursesOnline.stories'
 
 const IMG_PATH = '../../src/img/icons-banks/small/'
 
@@ -115,6 +116,7 @@ export default {
         isBestSaleCourse: false,
       },
     ],
+    modificators: ''
   },
 }
 
@@ -124,7 +126,7 @@ const Template = ({ data, ...args }) => {
   })
   return (
     `
-      <table class="currencies-courses-online">
+      <table class="currencies-courses-online ${args.modificators}">
         <thead>
             <tr>
                ${renderTableHeaders(args.headers)}
@@ -140,5 +142,11 @@ const Template = ({ data, ...args }) => {
 
 export const Mob = Template.bind({})
 Mob.storyName = 'Таблица онлайн курсов. Моб.'
+
+export const MobNegativeMargins = Template.bind({})
+MobNegativeMargins.storyName = 'Таблица онлайн курсов. Моб. Отрицательные отступы'
+MobNegativeMargins.args = {
+  modificators: 'currencies-courses-online--negative-margins'
+}
 
 

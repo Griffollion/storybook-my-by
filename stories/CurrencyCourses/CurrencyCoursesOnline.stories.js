@@ -177,6 +177,7 @@ export default {
         ],
       },
     ],
+    modificators: ''
   },
 }
 
@@ -186,7 +187,7 @@ const Template = ({ data, ...args }) => {
   })
   return (
     `
-      <table class="currencies-courses-online">
+      <table class="currencies-courses-online ${args.modificators}">
         <thead>
             <tr>
               <th></th>
@@ -221,5 +222,11 @@ const Template = ({ data, ...args }) => {
 
 export const Desk = Template.bind({})
 Desk.storyName = 'Таблица онлайн курсов. Деск.'
+
+export const DeskBordered = Template.bind({})
+DeskBordered.storyName = 'Таблица онлайн курсов. Деск. С рамкой'
+DeskBordered.args = {
+  modificators: 'currencies-courses-online--bordered'
+}
 
 

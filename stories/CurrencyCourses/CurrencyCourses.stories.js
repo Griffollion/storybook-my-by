@@ -174,18 +174,18 @@ export default {
   },
   args: {
     bodyData: [],
+    modificator: ''
   },
 }
 
 const Template = ({ data, ...args }) => {
   $(document).ready(() => {
     initTooltips()
-
   })
 
   return (
     `
-      <table class="currencies-courses">
+      <table class="currencies-courses ${args.modificator}">
         <thead>
             <tr>
               <th></th>
@@ -220,6 +220,13 @@ export const Desk = Template.bind({})
 Desk.storyName = 'Таблица курсов. Деск.'
 Desk.args = {
   bodyData: banks,
+}
+
+export const DeskBordered = Template.bind({})
+DeskBordered.storyName = 'Таблица курсов. Деск. С рамкой'
+DeskBordered.args = {
+  bodyData: banks,
+  modificator: 'currencies-courses--bordered'
 }
 
 

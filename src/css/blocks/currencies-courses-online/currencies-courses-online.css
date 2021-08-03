@@ -17,6 +17,15 @@
 
 /* currencies-courses-online--bordered //end */
 
+/* currencies-courses-online--negative-margins  */
+.currencies-courses-online--negative-margins {
+	margin-left: -10px;
+	margin-right: -10px;
+	width: calc(100% + 20px);
+}
+
+/* currencies-courses-online--negative-margins //end */
+
 .currencies-courses-online thead {
 	border-bottom: 1px solid #ebebeb;
 }
@@ -62,7 +71,7 @@
 
 .currencies-courses-online td:first-child a {
 	display: block;
-	width: 120px;
+	width: 85px;
 	position: relative;
 	white-space: nowrap;
 	overflow: hidden;
@@ -113,4 +122,26 @@
 .currencies-courses-online .sort.asc {
 	font-family: roboto-bold, Arial, Helvetica, sans-serif;
 	color: #f78f1e;
+}
+
+.currencies-courses-online tbody tr td {
+	transition: background-color .25s;
+}
+
+@media screen and (min-width: 340px) {
+	.currencies-courses-online td:first-child a {
+		width: 105px;
+	}
+}
+
+@media screen and (min-width: 360px) {
+	.currencies-courses-online td:first-child a {
+		width: 120px;
+	}
+}
+
+@media (hover: hover) {
+	.currencies-courses-online tbody tr:hover td {
+		background-color: #f8fdff;
+	}
 }
