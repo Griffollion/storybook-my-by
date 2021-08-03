@@ -1,0 +1,162 @@
+/*TODO: На январь 2021 это самый актуальный компонент чекбокса*/
+/* для элемента input c type="checkbox" */
+.checkbox-custom {
+	position: relative;
+	padding-left: 30px;
+}
+
+.checkbox-custom > input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+/* для элемента label, связанного с .checkbox-custom */
+.checkbox-custom > span {
+	display: inline-block;
+	align-items: center;
+	user-select: none;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+/* создание в label псевдоэлемента before со следующими стилями */
+.checkbox-custom > span::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #b4c6d2;
+	border-radius: 2px;
+	transition: filter .25s;
+}
+
+/* стили при наведении курсора на checkbox */
+.checkbox-custom > input:not(:disabled):not(:checked) + span:hover::before {
+	filter: brightness(1.1);
+}
+
+/* стили для активного чекбокса (при нажатии на него) */
+.checkbox-custom > input:not(:disabled):active + span::before {
+	filter: brightness(0.9);
+}
+
+/* стили для чекбокса, находящегося в состоянии checked */
+.checkbox-custom > input:checked + span::before {
+	border-color: #b4c6d2;
+}
+
+.checkbox-custom > input:checked + span::after {
+	content: "\e912";
+	position: absolute;
+	left: 3px;
+	top: -7px;
+	font-family: MyFin;
+	color: #000;
+	font-size: 20px;
+}
+
+/* стили для чекбокса, находящегося в состоянии disabled */
+.checkbox-custom > input:disabled + span {
+	pointer-events: none;
+}
+
+.checkbox-custom > input:disabled + span::before {
+	background-color: #ebebeb;
+	border-color: #ccc
+}
+
+/* checkbox-custom--text-gray */
+.checkbox-custom.checkbox-custom--text-gray > span {
+	color: #999;
+}
+
+/* checkbox-custom--text-gray //end */
+
+.checkbox-custom {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	margin: 10px 0 0 20px;
+}
+
+.checkbox-custom + label {
+	position: relative;
+	padding-left: 30px;
+	display: inline-block;
+	align-items: center;
+	user-select: none;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.checkbox-custom + label:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #b4c6d2;
+	border-radius: 2px;
+	transition: filter .25s;
+}
+
+.checkbox-custom:checked + label:before {
+	border-color: #b4c6d2;
+}
+
+.checkbox-custom:checked + label:after {
+	content: "\e912";
+	position: absolute;
+	left: 3px;
+	top: -7px;
+	font-family: MyFin;
+	color: #000;
+	font-size: 20px;
+}
+
+.checkbox-custom:not(:disabled):not(:checked) + label:hover:before {
+	filter: brightness(1.1);
+}
+
+.checkbox-custom:not(:disabled):not(:checked) + label:active:before {
+	filter: brightness(0.9);
+}
+
+.checkbox-custom:disabled + label {
+	pointer-events: none;
+}
+
+.checkbox-custom:disabled + label::before {
+	background-color: #ebebeb;
+	border-color: #ccc
+}
+
+/* checkbox-custom--small */
+.checkbox-custom.checkbox-custom--small + label {
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+.checkbox-custom.checkbox-custom--small + label::before {
+	top: 3px;
+	width: 14px;
+	height: 14px;
+}
+
+.checkbox-custom.checkbox-custom--small:checked + label::after {
+	content: "\e912";
+	position: absolute;
+	left: 2px;
+	top: -2px;
+	font-family: MyFin;
+	color: #000;
+	font-size: 15px;
+}
+
+/* checkbox-custom--small //end */

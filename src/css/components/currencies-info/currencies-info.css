@@ -1,0 +1,50 @@
+.currencies-info {
+	padding: 20px 15px;
+	background-color: #fff;
+	border: 1px solid #ebebeb;;
+	border-radius: 3px;
+}
+
+.currencies-info__title {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.currencies-info__item-cell {
+	margin-bottom: 20px;
+}
+
+.currencies-info__item-cell:last-child {
+	margin-bottom: 0;
+}
+
+.currencies-info__item {
+	display: flex;
+	align-items: center;
+}
+
+.currencies-info__item-icon {
+	margin-right: 10px;
+	width: 24px;
+	height: 24px;
+}
+
+.currencies-info__item-icon img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.currencies-info__item-name {
+	font-size: 18px;
+	font-family: roboto-bold, Arial, Helvetica, sans-serif;
+	margin-right: 10px;
+	line-height: 1;
+}
+
+.currencies-info__item-data {
+	font-size: 18px;
+	color: #0e1829;
+	margin-right: 5px;
+	line-height: 1;
+}

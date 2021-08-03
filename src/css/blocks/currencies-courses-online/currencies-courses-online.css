@@ -1,0 +1,147 @@
+.currencies-courses-online {
+	width: 100%;
+}
+
+/* currencies-courses-online--bordered  */
+.currencies-courses-online--bordered {
+	border: 1px solid #ebebeb;
+	border-radius: 3px;
+	border-collapse: unset;
+	overflow: hidden;
+}
+
+.currencies-courses-online--bordered tbody tr:last-child td {
+	border-bottom: none;
+}
+
+
+/* currencies-courses-online--bordered //end */
+
+/* currencies-courses-online--negative-margins  */
+.currencies-courses-online--negative-margins {
+	margin-left: -10px;
+	margin-right: -10px;
+	width: calc(100% + 20px);
+}
+
+/* currencies-courses-online--negative-margins //end */
+
+.currencies-courses-online thead {
+	border-bottom: 1px solid #ebebeb;
+}
+
+.currencies-courses-online th,
+.currencies-courses-online td {
+	padding-right: 15px;
+	text-align: left;
+}
+
+.currencies-courses-online th[colspan="2"],
+.currencies-courses-online td[colspan="2"] {
+	padding-bottom: 0;
+	padding-top: 15px;
+	line-height: 1;
+}
+
+.currencies-courses-online th:first-child,
+.currencies-courses-online td:first-child {
+	padding-left: 10px;
+}
+
+.currencies-courses-online th:last-child,
+.currencies-courses-online td:last-child {
+	padding-right: 10px;
+}
+
+.currencies-courses-online th {
+	background-color: #fff8e7;
+	color: #6b737d;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.currencies-courses-online td {
+	font-size: 16px;
+	border-bottom: 1px solid #ebebeb;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #fff;
+}
+
+.currencies-courses-online td:first-child a {
+	display: block;
+	width: 85px;
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left: 20px;
+}
+
+.currencies-courses-online td:first-child .bank-logo {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.currencies-courses-online .accent {
+	font-family: roboto-bold, Arial, Helvetica, sans-serif;
+}
+
+.currencies-courses-online .sort {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	transition: color .25s;
+}
+
+.currencies-courses-online .sort:hover,
+.currencies-courses-online .sort:hover:after {
+	color: #f78f1e;
+}
+
+.currencies-courses-online .sort:after {
+	font-family: MyFin;
+	margin-left: 5px;
+	color: #b4c6d2;
+	font-size: 12px;
+}
+
+.currencies-courses-online .sort:after,
+.currencies-courses-online .sort.desc:after {
+	content: "\e934";
+}
+
+.currencies-courses-online .sort.asc:after {
+	content: "\e933";
+}
+
+.currencies-courses-online .sort.desc,
+.currencies-courses-online .sort.asc {
+	font-family: roboto-bold, Arial, Helvetica, sans-serif;
+	color: #f78f1e;
+}
+
+.currencies-courses-online tbody tr td {
+	transition: background-color .25s;
+}
+
+@media screen and (min-width: 340px) {
+	.currencies-courses-online td:first-child a {
+		width: 105px;
+	}
+}
+
+@media screen and (min-width: 360px) {
+	.currencies-courses-online td:first-child a {
+		width: 120px;
+	}
+}
+
+@media (hover: hover) {
+	.currencies-courses-online tbody tr:hover td {
+		background-color: #f8fdff;
+	}
+}

@@ -1,0 +1,18 @@
+@media screen and (min-width: 767px) {
+	.minimal-tabs[data-js="hide-excess-items"] {
+		opacity: 0;
+	}
+	.minimal-tabs[data-js="hide-excess-items"].visible {
+		opacity: 1;
+	}
+
+	.minimal-tabs.minimal-tabs--v2 {
+		overflow: unset;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.minimal-tabs__item:last-child {
+		padding-right: 0;
+	}
+}

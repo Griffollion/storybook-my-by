@@ -1,0 +1,72 @@
+@media screen and (min-width: 400px) {
+	.currencies-courses td:first-child,
+	.currencies-courses th:first-child {
+		width: 250px;
+	}
+
+	.currencies-courses td:first-child a {
+		width: auto;
+		max-width: 100%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.currencies-courses .currencies-courses__row-main td:first-child {
+		padding-left: 42px;
+		position: relative;
+	}
+
+	.currencies-courses.currencies-courses--mob .currencies-courses__row-main td:first-child {
+		padding-left: 20px;
+	}
+
+	.currencies-courses .currencies-courses__row-main td:first-child:before {
+		content: "\e90d";
+		font-family: Myfin;
+		color: #b4c6d2;
+		position: absolute;
+		left: 20px;
+		top: 50%;
+		transform: translateY(-50%);
+		transition: transform .25s;
+		font-size: 12px;
+	}
+	.currencies-courses th:first-child {
+		padding-left: 20px;
+	}
+	.currencies-courses .currencies-courses__row-main th:last-child,
+	.currencies-courses .currencies-courses__row-main td:last-child,
+	.currencies-courses .currencies-courses--branches th:last-child,
+	.currencies-courses .currencies-courses--branches td:last-child{
+		padding-right: 20px;
+	}
+
+	/*	.currencies-courses--branches */
+	.currencies-courses.currencies-courses--branches td:first-child {
+		padding-left: 20px;
+	}
+	.currencies-courses.currencies-courses--branches td:first-child:before {
+		display: none;
+	}
+
+	.currencies-courses.currencies-courses--branches td:first-child a {
+		white-space: normal;
+		padding-left: 0;
+	}
+	/*	.currencies-courses--branches //end */
+
+
+	/*	*/
+	.floating-currency-converter__cell {
+		width: 145px;
+		margin-right: 40px;
+		position: relative;
+	}
+	/*	*/
+
+	.currencies-courses__search-row {
+		left: 20px;
+		top: 16px;
+		width: calc(100% - 40px);
+	}
+}

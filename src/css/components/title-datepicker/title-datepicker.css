@@ -1,0 +1,42 @@
+.title-datepicker {
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.title-datepicker--dashed .title-datepicker__text {
+	color: #14509c;
+	border-bottom: 1px dashed #14509c;
+}
+
+.title-datepicker__text {
+	pointer-events: none;
+	transition: color .25s,border-color .25s;
+	display: inline-block
+}
+
+.title-datepicker__icon {
+	color: #6b737d;
+	font-size: 22px;
+	pointer-events: none
+}
+
+.title-datepicker input {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	z-index: 2;
+	cursor: pointer;
+	margin: 0;
+	padding: 0
+}
+
+.title-datepicker:hover .title-datepicker__text {
+	color: #e86809;
+	border-color: #e86809
+}

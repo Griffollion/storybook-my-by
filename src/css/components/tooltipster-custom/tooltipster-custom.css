@@ -1,0 +1,105 @@
+.tooltipster-sidetip .tooltipster-box {
+	border: none;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(38, 48, 66, 0.2)
+}
+
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-box {
+	margin-top: 6px
+}
+
+.tooltipster-sidetip.tooltipster-left .tooltipster-box {
+	margin-right: 6px
+}
+
+.tooltipster-sidetip.tooltipster-right .tooltipster-box {
+	margin-left: 6px
+}
+
+.tooltipster-sidetip.tooltipster-top .tooltipster-box {
+	margin-bottom: 6px
+}
+
+.tooltipster-sidetip .tooltipster-content {
+	position: relative;
+	color: #263042;
+	padding: 15px;
+}
+
+.tooltipster-sidetip .tooltipster-content span {
+	font-weight: bold;
+}
+
+.tooltipster-sidetip .tooltipster-close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+	font-size: 12px;
+	color: #adb4bf;
+}
+
+.tooltipster-sidetip .tooltipster-arrow {
+	bottom: 0;
+	height: 6px !important;
+	margin-left: -6px !important;
+	width: 12px
+}
+
+.tooltipster-sidetip.tooltipster-left .tooltipster-arrow,
+.tooltipster-sidetip.tooltipster-right .tooltipster-arrow {
+	height: 12px;
+	margin-left: 0;
+	margin-top: -6px;
+	width: 6px
+}
+
+.tooltipster-sidetip .tooltipster-arrow-background {
+	display: none
+}
+
+.tooltipster-sidetip .tooltipster-arrow-border {
+	border: 6px solid transparent
+}
+
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border {
+	border-bottom-color: #fff
+}
+
+.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-border {
+	border-left-color: #fff
+}
+
+.tooltipster-sidetip.tooltipster-right .tooltipster-arrow-border {
+	border-right-color: #fff
+}
+
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border {
+	border-top-color: #fff
+}
+
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-uncropped {
+	top: -6px
+}
+
+.tooltipster-sidetip.tooltipster-right .tooltipster-arrow-uncropped {
+	left: -6px
+}
+
+.tooltipster-sidetip .tooltipster-close.tooltipster-close--fz-10 {
+	font-size: 10px;
+}
+
+.tooltip-click {
+	cursor: pointer;
+	transition: filter .25s;
+}
+
+.tooltip-click:hover {
+	filter: brightness(1.1);
+}
+
+.tooltip-click:active {
+	filter: brightness(0.9);
+}
